@@ -24,7 +24,7 @@ If you don't already have the CocoaPods tool, install it on macOS by running the
 Edit the Podfile and add your dependencies.
 ```
 target 'YOUR_APPLICATION_TARGET_NAME_HERE' do
-  pod 'beCoMapOutdoor', '~> YOUR_SDK_VERSION(eg:0.2.0)'
+  pod 'beCoMapOutdoor', '~> YOUR_SDK_VERSION(eg:0.1.0)'
 end
 ```
 Run the pod install command. This will install the APIs specified in the Podfile, along with any dependencies they may have.

@@ -1,0 +1,436 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A3EAAFD48DD1209439DCB8BC /* Pods_beCoMapOutdoorDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 851BABC966249071E140628F /* Pods_beCoMapOutdoorDemo.framework */; };
+		B356AA782536F49D00E5EBBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B356AA772536F49D00E5EBBD /* AppDelegate.swift */; };
+		B356AA7C2536F49D00E5EBBD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B356AA7B2536F49D00E5EBBD /* ViewController.swift */; };
+		B356AA7F2536F49D00E5EBBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B356AA7D2536F49D00E5EBBD /* Main.storyboard */; };
+		B356AA812536F4A200E5EBBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B356AA802536F4A200E5EBBD /* Assets.xcassets */; };
+		B356AA842536F4A200E5EBBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B356AA822536F4A200E5EBBD /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		851BABC966249071E140628F /* Pods_beCoMapOutdoorDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_beCoMapOutdoorDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		90EA44728E197F923DB46400 /* Pods-beCoMapOutdoorDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-beCoMapOutdoorDemo.debug.xcconfig"; path = "Target Support Files/Pods-beCoMapOutdoorDemo/Pods-beCoMapOutdoorDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		B356AA742536F49D00E5EBBD /* beCoMapOutdoorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = beCoMapOutdoorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B356AA772536F49D00E5EBBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B356AA7B2536F49D00E5EBBD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B356AA7E2536F49D00E5EBBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B356AA802536F4A200E5EBBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B356AA832536F4A200E5EBBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B356AA852536F4A200E5EBBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5F933B9F1F4C32F6F6EE06B /* Pods-beCoMapOutdoorDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-beCoMapOutdoorDemo.release.xcconfig"; path = "Target Support Files/Pods-beCoMapOutdoorDemo/Pods-beCoMapOutdoorDemo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B356AA712536F49D00E5EBBD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A3EAAFD48DD1209439DCB8BC /* Pods_beCoMapOutdoorDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B356AA6B2536F49D00E5EBBD = {
+			isa = PBXGroup;
+			children = (
+				B356AA762536F49D00E5EBBD /* beCoMapOutdoorDemo */,
+				B356AA752536F49D00E5EBBD /* Products */,
+				D7EC9C3C8FC43403A837793D /* Pods */,
+				BAB9C3DB0B14E6A51C583405 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B356AA752536F49D00E5EBBD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B356AA742536F49D00E5EBBD /* beCoMapOutdoorDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B356AA762536F49D00E5EBBD /* beCoMapOutdoorDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B356AA772536F49D00E5EBBD /* AppDelegate.swift */,
+				B356AA7B2536F49D00E5EBBD /* ViewController.swift */,
+				B356AA7D2536F49D00E5EBBD /* Main.storyboard */,
+				B356AA802536F4A200E5EBBD /* Assets.xcassets */,
+				B356AA822536F4A200E5EBBD /* LaunchScreen.storyboard */,
+				B356AA852536F4A200E5EBBD /* Info.plist */,
+			);
+			path = beCoMapOutdoorDemo;
+			sourceTree = "<group>";
+		};
+		BAB9C3DB0B14E6A51C583405 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				851BABC966249071E140628F /* Pods_beCoMapOutdoorDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7EC9C3C8FC43403A837793D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				90EA44728E197F923DB46400 /* Pods-beCoMapOutdoorDemo.debug.xcconfig */,
+				D5F933B9F1F4C32F6F6EE06B /* Pods-beCoMapOutdoorDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B356AA732536F49D00E5EBBD /* beCoMapOutdoorDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B356AA882536F4A200E5EBBD /* Build configuration list for PBXNativeTarget "beCoMapOutdoorDemo" */;
+			buildPhases = (
+				F90EBC6667EA37D07B7077A4 /* [CP] Check Pods Manifest.lock */,
+				B356AA702536F49D00E5EBBD /* Sources */,
+				B356AA712536F49D00E5EBBD /* Frameworks */,
+				B356AA722536F49D00E5EBBD /* Resources */,
+				C39BD40876F373104CD4F778 /* [CP] Embed Pods Frameworks */,
+				69B414A7E805D23AE74AB87C /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = beCoMapOutdoorDemo;
+			productName = beCoMapOutdoorDemo;
+			productReference = B356AA742536F49D00E5EBBD /* beCoMapOutdoorDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B356AA6C2536F49D00E5EBBD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1170;
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = "GlobeCo Technologies Pvt Ltd";
+				TargetAttributes = {
+					B356AA732536F49D00E5EBBD = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = B356AA6F2536F49D00E5EBBD /* Build configuration list for PBXProject "beCoMapOutdoorDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B356AA6B2536F49D00E5EBBD;
+			productRefGroup = B356AA752536F49D00E5EBBD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B356AA732536F49D00E5EBBD /* beCoMapOutdoorDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B356AA722536F49D00E5EBBD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B356AA842536F4A200E5EBBD /* LaunchScreen.storyboard in Resources */,
+				B356AA812536F4A200E5EBBD /* Assets.xcassets in Resources */,
+				B356AA7F2536F49D00E5EBBD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		69B414A7E805D23AE74AB87C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-beCoMapOutdoorDemo/Pods-beCoMapOutdoorDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-beCoMapOutdoorDemo/Pods-beCoMapOutdoorDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-beCoMapOutdoorDemo/Pods-beCoMapOutdoorDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C39BD40876F373104CD4F778 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-beCoMapOutdoorDemo/Pods-beCoMapOutdoorDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-beCoMapOutdoorDemo/Pods-beCoMapOutdoorDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-beCoMapOutdoorDemo/Pods-beCoMapOutdoorDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F90EBC6667EA37D07B7077A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-beCoMapOutdoorDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B356AA702536F49D00E5EBBD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B356AA7C2536F49D00E5EBBD /* ViewController.swift in Sources */,
+				B356AA782536F49D00E5EBBD /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		B356AA7D2536F49D00E5EBBD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B356AA7E2536F49D00E5EBBD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B356AA822536F4A200E5EBBD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B356AA832536F4A200E5EBBD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B356AA862536F4A200E5EBBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B356AA872536F4A200E5EBBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B356AA892536F4A200E5EBBD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90EA44728E197F923DB46400 /* Pods-beCoMapOutdoorDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KC5H4C562K;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/beCoMapOutdoorDemo",
+				);
+				INFOPLIST_FILE = beCoMapOutdoorDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.beCo.beCoMapOutdoorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B356AA8A2536F4A200E5EBBD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5F933B9F1F4C32F6F6EE06B /* Pods-beCoMapOutdoorDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = KC5H4C562K;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/beCoMapOutdoorDemo",
+				);
+				INFOPLIST_FILE = beCoMapOutdoorDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.beCo.beCoMapOutdoorDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B356AA6F2536F49D00E5EBBD /* Build configuration list for PBXProject "beCoMapOutdoorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B356AA862536F4A200E5EBBD /* Debug */,
+				B356AA872536F4A200E5EBBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B356AA882536F4A200E5EBBD /* Build configuration list for PBXNativeTarget "beCoMapOutdoorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B356AA892536F4A200E5EBBD /* Debug */,
+				B356AA8A2536F4A200E5EBBD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B356AA6C2536F49D00E5EBBD /* Project object */;
+}

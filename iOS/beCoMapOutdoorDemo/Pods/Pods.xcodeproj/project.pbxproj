@@ -1,0 +1,1327 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		0C1885900810601510E0C632060FAF26 /* GooglePlaces */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 2FC2AC47FDB0310285CE777F18CD1532 /* Build configuration list for PBXAggregateTarget "GooglePlaces" */;
+			buildPhases = (
+			);
+			dependencies = (
+				D42315111F400C0605ACCD6B5CAF2178 /* PBXTargetDependency */,
+			);
+			name = GooglePlaces;
+		};
+		60A3D577CE4C761F76AC5D77DD49A211 /* beCoMapOutdoor */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 362623C463179F4A2B76FF41B5A84B0E /* Build configuration list for PBXAggregateTarget "beCoMapOutdoor" */;
+			buildPhases = (
+			);
+			dependencies = (
+				2C1CF7075656A33CBF4F676A5957E2A8 /* PBXTargetDependency */,
+				36E7BA2393C3F09FEB0B71DB37ED39EA /* PBXTargetDependency */,
+				3FA465C952C1BCA2011B2D889762F65C /* PBXTargetDependency */,
+			);
+			name = beCoMapOutdoor;
+		};
+		E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 46921981F609C5BA3CB72EC4EA41299D /* Build configuration list for PBXAggregateTarget "GoogleMaps" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = GoogleMaps;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		0306324FB55AB79F74A36E63BF1B0B81 /* BinaryEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A2E43EB364A5D8AF7A9F8584276677D /* BinaryEncoder.swift */; };
+		0370DD7976BF534338E354D6FB0BBF0E /* AnyMessageStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C8A83CFAD2575F4A561DDE3740C3B37 /* AnyMessageStorage.swift */; };
+		05428251AAD926AF0CAA2E133AF73EC1 /* JSONMapEncodingVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226753589E81675507EDE155A7C85B22 /* JSONMapEncodingVisitor.swift */; };
+		06631E819F0CB4A8DD590F156B957F37 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AF44E0A1F46B86336AEF75629C4D28 /* Enum.swift */; };
+		07F601495DDDC567417A65415CED5822 /* WireFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342285ED797E216215487F6BF17F45CE /* WireFormat.swift */; };
+		096291D2BEC9EB2BB9D9F45E2A9ACF94 /* Data+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A571CF13878BC574405A111B923BF687 /* Data+Extensions.swift */; };
+		0AB6C4C39E9B72AC14C61C3FC5654BB0 /* CustomJSONCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 07F01DA8DE9C7301134983B59D7451BC /* CustomJSONCodable.swift */; };
+		1C5B12E775561CB51F217D4CD2469E76 /* HashVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC21EEA21017549FE3C13A40709AB9C /* HashVisitor.swift */; };
+		2571AE7B3E94F106F683084B75A74B70 /* UnsafeBufferPointer+Shims.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7596C8E164A8970B5322613AFDA1E268 /* UnsafeBufferPointer+Shims.swift */; };
+		279B5537027F820BFD2004D5261AE601 /* BinaryEncodingVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC026DC3BF69C55A8A7E3D8974A81D4 /* BinaryEncodingVisitor.swift */; };
+		2876B3898762093FDFDB8E08FEAEF9CE /* SelectiveVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7408903FE4D616E2FD920A677DCB6769 /* SelectiveVisitor.swift */; };
+		2925DF5B9ABEF53D1750DAB9816EB575 /* TimeUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DAE83C912E17F040C21EBCC310C3DC0 /* TimeUtils.swift */; };
+		29FD1D214A2461A7D66A670D7F8FE908 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		2B21506B950ADC53ED389942C1352BEC /* Google_Protobuf_Value+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32FCA66670CF798256537D3A80F871AE /* Google_Protobuf_Value+Extensions.swift */; };
+		2EB05CB081642467250D4195CEE8D342 /* Google_Protobuf_Struct+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 247AD03B1D80468D5A386103DC047C8C /* Google_Protobuf_Struct+Extensions.swift */; };
+		2FAA0B1904BE39D4D5B82483A60454C1 /* ExtensionMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9628A3058CA7C767D806655BB6428718 /* ExtensionMap.swift */; };
+		2FEEC457A1C8EA966BE8CBE3E15C603E /* BinaryDecodingOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B4A38B3C5AB7E099AFDE015A61C051E /* BinaryDecodingOptions.swift */; };
+		32689C0030285230B205D8CA63F8C1C0 /* BinaryDelimited.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4A91CA751E35112ABD20A259F6291ED /* BinaryDelimited.swift */; };
+		36EF04020ECCC3C7A684E8BCAE37FB7C /* wrappers.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57BE251DAD11697F3EEDB7957DD21049 /* wrappers.pb.swift */; };
+		3742D157F9A9B05A5838191174FFCBB7 /* type.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5945DED4ED66DA9203D24BF50A25A903 /* type.pb.swift */; };
+		40608B7D55F53F7F6E8E21445A79F189 /* ProtobufAPIVersionCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD8964D3F47EAE4F8759859EBC7A9F32 /* ProtobufAPIVersionCheck.swift */; };
+		41F2BAE47F6F2DC9AD726741C73A00C4 /* Google_Protobuf_Wrappers+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CD2DCB6070D10F6E688BC09EAED4D1F /* Google_Protobuf_Wrappers+Extensions.swift */; };
+		45F0556AB97DFAA72F7143C0E88A6222 /* any.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4940154A6B7C233F46FEE92BA01EFC6E /* any.pb.swift */; };
+		48315880BA7838D4B18F9DD8A1AF1A86 /* api.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 50B90AC3DC7A0EC54BD33FA22E74EAF8 /* api.pb.swift */; };
+		4F49DFB997F68A03D06D7A643EC8EE86 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 26F305DBBD7CC02CF7E638C41AA12464 /* Message.swift */; };
+		4FDB98306907B92A315FD49D24272882 /* JSONEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89B0CCBC038754C8409E4179C739C274 /* JSONEncoder.swift */; };
+		55BBCD4D65B7B549C6AD0D64821C30A6 /* Version.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF8AD04D20A3E93E19C926CDB140C88 /* Version.swift */; };
+		56C157C99B60F5630CCC809F4EDA8E38 /* TextFormatScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E19824C0397CF66A7C0403BD214BEBB /* TextFormatScanner.swift */; };
+		5722684F9F6DDD9960ECDDED608FE036 /* empty.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1307715C6A9D799DE602831738F5F821 /* empty.pb.swift */; };
+		5B4B140B962F8BDE4F42228A45B68860 /* Pods-beCoMapOutdoorDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D601248E1647F5F79073BBCA1EDC32E9 /* Pods-beCoMapOutdoorDemo-dummy.m */; };
+		5C5BCED0616B3D8EDADD47F7E16FE2B5 /* timestamp.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = B222FD3155089FA5AEA1AF4BD72B8D06 /* timestamp.pb.swift */; };
+		5F007F7B75D1038D7ED99FF96B3727FF /* Google_Protobuf_Any+Registry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B4719B30DF409D1B1253DE9BEE0D6BE /* Google_Protobuf_Any+Registry.swift */; };
+		61BBD185A4127E16411C5345DD27EC8B /* Google_Protobuf_Timestamp+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7796E58F5B0CF8BD33446BA262AF819D /* Google_Protobuf_Timestamp+Extensions.swift */; };
+		6259B0850902090C1B2384E535945CA0 /* JSONEncodingOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C47FA1328A607A584F899C63FA3062 /* JSONEncodingOptions.swift */; };
+		6C779DF7CBD3AB30F7F731175647DFAA /* Google_Protobuf_ListValue+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E28B8749450EF3F93D5FC9A1BC093E /* Google_Protobuf_ListValue+Extensions.swift */; };
+		6CC4440EB2AE23FC9404AE5467C9B23F /* Message+TextFormatAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 78CD701072C1D5751110D11BCEE83719 /* Message+TextFormatAdditions.swift */; };
+		6F785A63F4717DD00C8A087D3B11510C /* JSONScanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 287E6225AAB009EAA7A2F52FA213CC21 /* JSONScanner.swift */; };
+		6FB23BA39B74E065E6DBAC3B8E5E31A8 /* JSONDecodingOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0A47FC131B2DEBB8E753E0C8A2EB2EA /* JSONDecodingOptions.swift */; };
+		70BE199C905DE3A20BCFAB1EC06891FE /* MathUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAF21B034F7462387E785B02BDF51CC2 /* MathUtils.swift */; };
+		7503103A23C5BEAC08701D7690C7C534 /* Decoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D0AD90946D6B885F4B6CF0DEBC3912 /* Decoder.swift */; };
+		768DE64CF1BFF124BFDFB2770EBBE9E2 /* SimpleExtensionMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 055EB76984F1B05E63188508EF4E268E /* SimpleExtensionMap.swift */; };
+		78AB98FF31DE13D7D308AA14834053F9 /* StringUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 31AECF47977AD58B69C39CC90C83528F /* StringUtils.swift */; };
+		7CA38B1CA9CE0A275B5571577F377F7E /* descriptor.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = A4E9B8ADC4785A90567384021CD96DFB /* descriptor.pb.swift */; };
+		7DD7485CFA4F468A9697A45A20BC8E5F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		7E7D0974AF65E69EA2F59707F38E6D6C /* Internal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03FBCA537C02B73CF088AF4BF38552E1 /* Internal.swift */; };
+		8174C363A8B7E844A9D1BBB01247F0E8 /* SwiftProtobuf-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B9E9BF90232FA2884A6512D2A9F8986 /* SwiftProtobuf-dummy.m */; };
+		81FE33DC41F9463126D7DB1D55DA4E0C /* Pods-beCoMapOutdoorDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ED9C363C29DBBEADA0149FE0EFD7DE74 /* Pods-beCoMapOutdoorDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85A561105AEC6B20051107DD5BA4CB01 /* field_mask.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E962B65887429B419C0A38C693E760B /* field_mask.pb.swift */; };
+		8A060E13D58E21354826D24EB3EB5F78 /* UnknownStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F144CA01FB6EA873E3D6CB0EE2D43E48 /* UnknownStorage.swift */; };
+		8DAB08085FA4D6BDCFAE2D0185D5FA52 /* BinaryEncodingSizeVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 917B7A91CE6F538BDB4970E71E41EEDD /* BinaryEncodingSizeVisitor.swift */; };
+		90655BE084B8049F64CC6B31C7C38024 /* TextFormatEncodingVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 27D16CDF2F4E61A7AB01D9DD082E7AB2 /* TextFormatEncodingVisitor.swift */; };
+		922725F2C6E642C4AE96221992E97025 /* TextFormatEncodingOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6529CD7BAFE128345BC1D1F227446E17 /* TextFormatEncodingOptions.swift */; };
+		937032FB45A5B87EEE1D9200F272D56E /* Message+JSONArrayAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA95C0C3D1736FC4BB19620C5A196DBB /* Message+JSONArrayAdditions.swift */; };
+		9631AFCA2E5CFDC709AF42DAE31B8988 /* AnyUnpackError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 118925FB5B820B45269C6272715151A3 /* AnyUnpackError.swift */; };
+		9735DED140FA17180EA48D8CAAD756E4 /* NameMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 183C8077D4057F7689A32FD702873D23 /* NameMap.swift */; };
+		977E473A1F173FCA0CD55DA4546BAF50 /* ProtoNameProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC04165FD205E6B1698F5C43B7F3991D /* ProtoNameProviding.swift */; };
+		986AB441F2847BF56DEFD9BF2608641F /* Google_Protobuf_Duration+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DA972C3D1389427D60D0824525A6578E /* Google_Protobuf_Duration+Extensions.swift */; };
+		9A44C351C3709733A6F3ACE32AB1044D /* BinaryEncodingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D48CB7E96B9C440DA586D383E75CB595 /* BinaryEncodingError.swift */; };
+		9AE85857CE67A91D12D55A2E8A50CC59 /* Google_Protobuf_FieldMask+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0735592A18ECC4E0D68A1160DABD0D8A /* Google_Protobuf_FieldMask+Extensions.swift */; };
+		A460D858CB2252BEC746B0858F32AF4C /* SwiftProtobuf-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 063628854EFF6B66150104EDA5559EA1 /* SwiftProtobuf-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4B58A8D021F16AC0C4B1B9838CCFA6F /* JSONDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CE6B0C7054A611B4CA94E35BE1D2B0B /* JSONDecoder.swift */; };
+		A78E247D684B263D82A79D37C7499E17 /* ExtensionFields.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C95037156B3F86640E6B073A6298985 /* ExtensionFields.swift */; };
+		A7DE0A908C573DA7885B66782BB7936C /* ProtobufMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = EACF2A03E4D9AAF644DAED5F5330620B /* ProtobufMap.swift */; };
+		A99EE4AC3ACBE7EB8A621F32C3BEDBAE /* BinaryDecodingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE24DCA8C43B6C14523DBDE69A9DFF69 /* BinaryDecodingError.swift */; };
+		B1882FD65D34E1035697D9F9379530F3 /* TextFormatEncoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98BEA1A943F4C617C50527A34D2FA175 /* TextFormatEncoder.swift */; };
+		B31DCE8FC88A879A05146AA4529F2561 /* source_context.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB4D868DB09688A84BCFB45D9AE0C05 /* source_context.pb.swift */; };
+		BA669A1DF025DF98B72250FF8D1DFD5E /* duration.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796FDF9E298E195D9F36099037F2947A /* duration.pb.swift */; };
+		BCA7647FD2F66D983199BB1CF6664CB1 /* DoubleParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6312FEF11B2AF2EBDC0D705A47FB87F /* DoubleParser.swift */; };
+		BD9235D688A6C4A5DE40FB6FCB35E62F /* Message+AnyAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AEC55C068EDE0CD321F4482C5D9C8D2F /* Message+AnyAdditions.swift */; };
+		BDC759DB5C1470C63E6AB88B3D00940B /* JSONEncodingVisitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC6E83C7A5270952279F3679D6637B27 /* JSONEncodingVisitor.swift */; };
+		C2FF9CA713BB3877B7823E06552CABEA /* ExtensibleMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0361D2DA2F86C6AB50EA543E9E6024B /* ExtensibleMessage.swift */; };
+		CBB48663F95851F328CF7FF3A3E4D107 /* struct.pb.swift in Sources */ = {isa = PBXBuildFile; fileRef = 929BDBE93489C847FC40794B97909BE2 /* struct.pb.swift */; };
+		D04606473D430C3CE00E9349DBC0ADBF /* ExtensionFieldValueSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = E790E7B414B7C7AE10F8FB076EF691BC /* ExtensionFieldValueSet.swift */; };
+		D09DFBD07DAEAB2B34D98DDAE785E13D /* Message+JSONAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97786DFA0C03B2C42F02876CA80B7D75 /* Message+JSONAdditions.swift */; };
+		D517B3372A9C1002E730F86AC5DF9C18 /* JSONDecodingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A478AEAF0B2AD46C68D88BAF046AFCA /* JSONDecodingError.swift */; };
+		D68C466FD840785C0FA744C1E8C8C85B /* TextFormatDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B8120395974D973BC656C06ECBA3C81 /* TextFormatDecoder.swift */; };
+		D885444883193D320C4A0C863B2B301C /* UnsafeRawPointer+Shims.swift in Sources */ = {isa = PBXBuildFile; fileRef = B958943477F3A991FDFB2D478469C281 /* UnsafeRawPointer+Shims.swift */; };
+		DB159ACACBC5B6DCD4A473E2EEECD3FB /* BinaryDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC5638FCBACADAC59E008872AEA4E465 /* BinaryDecoder.swift */; };
+		E7837748D1B8747874DB879661BCA826 /* JSONEncodingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F881E3E85BBF0D6ABABBFE39D9E26A4 /* JSONEncodingError.swift */; };
+		EADCA8080E8F56F6E60726B10A6BC3BD /* Visitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F517C3519BC8171A03B479955EEEE2F /* Visitor.swift */; };
+		EBEA9E1298B3DC3DEFCB6E3035321484 /* MessageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2ECB3A3C93B2EFB4355055301B7289C5 /* MessageExtension.swift */; };
+		F1FF438183E0E529B4ACE7256F30C1E8 /* TextFormatDecodingError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 942C9A80537A7E8CC375CAFD360CD53F /* TextFormatDecodingError.swift */; };
+		F39B6C8C0C2AFDBCFB2DA479BBE5D602 /* FieldTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = E5069846E649E09D08F51015C02081DF /* FieldTypes.swift */; };
+		F5C12A16EEAC29631149A04B6DEAEA2E /* Varint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D6641C8BE5188A7D640A6964D3AC089 /* Varint.swift */; };
+		FA909BF12F800E32B86EF66E740CDD8B /* Message+BinaryAdditions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 768137B85969FAFB27CDB391C1CB4758 /* Message+BinaryAdditions.swift */; };
+		FC6ED520E7F095AAADEA0992E6BDDB85 /* FieldTag.swift in Sources */ = {isa = PBXBuildFile; fileRef = E9C39160D9A1CE3084514E720457CD6F /* FieldTag.swift */; };
+		FD3B8C98397263107A386BD690AA90B4 /* ZigZag.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABF76C1FD9184D67BD98DB7A4F65F29 /* ZigZag.swift */; };
+		FF05DD2F615A0D9275FE93D37B174661 /* Google_Protobuf_Any+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32069E13D153908E9EB3DD6936EF0E3D /* Google_Protobuf_Any+Extensions.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0FF111C2FACB660D3C73E3F88036D2D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 60A3D577CE4C761F76AC5D77DD49A211;
+			remoteInfo = beCoMapOutdoor;
+		};
+		46139B3CCBA9328CEB633DEC164283F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5B4BBC6DD552AC8943C7E22772FC1D3;
+			remoteInfo = GoogleMaps;
+		};
+		57EC14269D188819035E6774DAE924A3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C1885900810601510E0C632060FAF26;
+			remoteInfo = GooglePlaces;
+		};
+		6EB1C2DD30E6564FC3135C9E8002D8F7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5B4BBC6DD552AC8943C7E22772FC1D3;
+			remoteInfo = GoogleMaps;
+		};
+		725594171DAF50D19F7FDA88B1E03D01 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5F702E0DA383BC1479572581615A916;
+			remoteInfo = SwiftProtobuf;
+		};
+		7C2AEB7B99C5C3C0FAA206E217605818 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C1885900810601510E0C632060FAF26;
+			remoteInfo = GooglePlaces;
+		};
+		CA3E11FAC6FD76DAD0314FB4917FDADE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A5F702E0DA383BC1479572581615A916;
+			remoteInfo = SwiftProtobuf;
+		};
+		CEE46D7AE09E8D34A741031F0ADCC00A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5B4BBC6DD552AC8943C7E22772FC1D3;
+			remoteInfo = GoogleMaps;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		03FBCA537C02B73CF088AF4BF38552E1 /* Internal.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Internal.swift; path = Sources/SwiftProtobuf/Internal.swift; sourceTree = "<group>"; };
+		055EB76984F1B05E63188508EF4E268E /* SimpleExtensionMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SimpleExtensionMap.swift; path = Sources/SwiftProtobuf/SimpleExtensionMap.swift; sourceTree = "<group>"; };
+		063628854EFF6B66150104EDA5559EA1 /* SwiftProtobuf-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftProtobuf-umbrella.h"; sourceTree = "<group>"; };
+		0735592A18ECC4E0D68A1160DABD0D8A /* Google_Protobuf_FieldMask+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Google_Protobuf_FieldMask+Extensions.swift"; path = "Sources/SwiftProtobuf/Google_Protobuf_FieldMask+Extensions.swift"; sourceTree = "<group>"; };
+		07F01DA8DE9C7301134983B59D7451BC /* CustomJSONCodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CustomJSONCodable.swift; path = Sources/SwiftProtobuf/CustomJSONCodable.swift; sourceTree = "<group>"; };
+		0DAE83C912E17F040C21EBCC310C3DC0 /* TimeUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TimeUtils.swift; path = Sources/SwiftProtobuf/TimeUtils.swift; sourceTree = "<group>"; };
+		118925FB5B820B45269C6272715151A3 /* AnyUnpackError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyUnpackError.swift; path = Sources/SwiftProtobuf/AnyUnpackError.swift; sourceTree = "<group>"; };
+		129BAA7AC562FBEDE9CB93566571D296 /* SwiftProtobuf.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftProtobuf.modulemap; sourceTree = "<group>"; };
+		1307715C6A9D799DE602831738F5F821 /* empty.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = empty.pb.swift; path = Sources/SwiftProtobuf/empty.pb.swift; sourceTree = "<group>"; };
+		183C8077D4057F7689A32FD702873D23 /* NameMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NameMap.swift; path = Sources/SwiftProtobuf/NameMap.swift; sourceTree = "<group>"; };
+		226753589E81675507EDE155A7C85B22 /* JSONMapEncodingVisitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONMapEncodingVisitor.swift; path = Sources/SwiftProtobuf/JSONMapEncodingVisitor.swift; sourceTree = "<group>"; };
+		247AD03B1D80468D5A386103DC047C8C /* Google_Protobuf_Struct+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Google_Protobuf_Struct+Extensions.swift"; path = "Sources/SwiftProtobuf/Google_Protobuf_Struct+Extensions.swift"; sourceTree = "<group>"; };
+		26F305DBBD7CC02CF7E638C41AA12464 /* Message.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Message.swift; path = Sources/SwiftProtobuf/Message.swift; sourceTree = "<group>"; };
+		27D16CDF2F4E61A7AB01D9DD082E7AB2 /* TextFormatEncodingVisitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFormatEncodingVisitor.swift; path = Sources/SwiftProtobuf/TextFormatEncodingVisitor.swift; sourceTree = "<group>"; };
+		287E6225AAB009EAA7A2F52FA213CC21 /* JSONScanner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONScanner.swift; path = Sources/SwiftProtobuf/JSONScanner.swift; sourceTree = "<group>"; };
+		295D7A1E2C8FADDDC5B81FC6FE611471 /* Pods-beCoMapOutdoorDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-beCoMapOutdoorDemo-resources.sh"; sourceTree = "<group>"; };
+		2B4719B30DF409D1B1253DE9BEE0D6BE /* Google_Protobuf_Any+Registry.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Google_Protobuf_Any+Registry.swift"; path = "Sources/SwiftProtobuf/Google_Protobuf_Any+Registry.swift"; sourceTree = "<group>"; };
+		2B8120395974D973BC656C06ECBA3C81 /* TextFormatDecoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFormatDecoder.swift; path = Sources/SwiftProtobuf/TextFormatDecoder.swift; sourceTree = "<group>"; };
+		2D6641C8BE5188A7D640A6964D3AC089 /* Varint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Varint.swift; path = Sources/SwiftProtobuf/Varint.swift; sourceTree = "<group>"; };
+		2ECB3A3C93B2EFB4355055301B7289C5 /* MessageExtension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MessageExtension.swift; path = Sources/SwiftProtobuf/MessageExtension.swift; sourceTree = "<group>"; };
+		31AECF47977AD58B69C39CC90C83528F /* StringUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StringUtils.swift; path = Sources/SwiftProtobuf/StringUtils.swift; sourceTree = "<group>"; };
+		32069E13D153908E9EB3DD6936EF0E3D /* Google_Protobuf_Any+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Google_Protobuf_Any+Extensions.swift"; path = "Sources/SwiftProtobuf/Google_Protobuf_Any+Extensions.swift"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		321221FF5A4ACD6F9679026DF1B42E57 /* beCoMapOutdoor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = beCoMapOutdoor.xcconfig; sourceTree = "<group>"; };
+		32FCA66670CF798256537D3A80F871AE /* Google_Protobuf_Value+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Google_Protobuf_Value+Extensions.swift"; path = "Sources/SwiftProtobuf/Google_Protobuf_Value+Extensions.swift"; sourceTree = "<group>"; };
+		342285ED797E216215487F6BF17F45CE /* WireFormat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WireFormat.swift; path = Sources/SwiftProtobuf/WireFormat.swift; sourceTree = "<group>"; };
+		38C47FA1328A607A584F899C63FA3062 /* JSONEncodingOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONEncodingOptions.swift; path = Sources/SwiftProtobuf/JSONEncodingOptions.swift; sourceTree = "<group>"; };
+		3C95037156B3F86640E6B073A6298985 /* ExtensionFields.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExtensionFields.swift; path = Sources/SwiftProtobuf/ExtensionFields.swift; sourceTree = "<group>"; };
+		3E962B65887429B419C0A38C693E760B /* field_mask.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = field_mask.pb.swift; path = Sources/SwiftProtobuf/field_mask.pb.swift; sourceTree = "<group>"; };
+		3FB4D868DB09688A84BCFB45D9AE0C05 /* source_context.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = source_context.pb.swift; path = Sources/SwiftProtobuf/source_context.pb.swift; sourceTree = "<group>"; };
+		42E42E019D7BA0613A6893E7B0F5E6EE /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
+		4940154A6B7C233F46FEE92BA01EFC6E /* any.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = any.pb.swift; path = Sources/SwiftProtobuf/any.pb.swift; sourceTree = "<group>"; };
+		4A478AEAF0B2AD46C68D88BAF046AFCA /* JSONDecodingError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONDecodingError.swift; path = Sources/SwiftProtobuf/JSONDecodingError.swift; sourceTree = "<group>"; };
+		4BF8AD04D20A3E93E19C926CDB140C88 /* Version.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Version.swift; path = Sources/SwiftProtobuf/Version.swift; sourceTree = "<group>"; };
+		50B90AC3DC7A0EC54BD33FA22E74EAF8 /* api.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = api.pb.swift; path = Sources/SwiftProtobuf/api.pb.swift; sourceTree = "<group>"; };
+		57BE251DAD11697F3EEDB7957DD21049 /* wrappers.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = wrappers.pb.swift; path = Sources/SwiftProtobuf/wrappers.pb.swift; sourceTree = "<group>"; };
+		57E28B8749450EF3F93D5FC9A1BC093E /* Google_Protobuf_ListValue+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Google_Protobuf_ListValue+Extensions.swift"; path = "Sources/SwiftProtobuf/Google_Protobuf_ListValue+Extensions.swift"; sourceTree = "<group>"; };
+		5945DED4ED66DA9203D24BF50A25A903 /* type.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = type.pb.swift; path = Sources/SwiftProtobuf/type.pb.swift; sourceTree = "<group>"; };
+		5A2E43EB364A5D8AF7A9F8584276677D /* BinaryEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BinaryEncoder.swift; path = Sources/SwiftProtobuf/BinaryEncoder.swift; sourceTree = "<group>"; };
+		5B9E9BF90232FA2884A6512D2A9F8986 /* SwiftProtobuf-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftProtobuf-dummy.m"; sourceTree = "<group>"; };
+		5E7AEF534EE0DCECC438522DD4D018D3 /* Pods-beCoMapOutdoorDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-beCoMapOutdoorDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		6529CD7BAFE128345BC1D1F227446E17 /* TextFormatEncodingOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFormatEncodingOptions.swift; path = Sources/SwiftProtobuf/TextFormatEncodingOptions.swift; sourceTree = "<group>"; };
+		6828CB052C2E6B64ECDFB47602D5E43F /* SwiftProtobuf.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftProtobuf.xcconfig; sourceTree = "<group>"; };
+		6CD2DCB6070D10F6E688BC09EAED4D1F /* Google_Protobuf_Wrappers+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Google_Protobuf_Wrappers+Extensions.swift"; path = "Sources/SwiftProtobuf/Google_Protobuf_Wrappers+Extensions.swift"; sourceTree = "<group>"; };
+		6CE6B0C7054A611B4CA94E35BE1D2B0B /* JSONDecoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONDecoder.swift; path = Sources/SwiftProtobuf/JSONDecoder.swift; sourceTree = "<group>"; };
+		6E503D6B9D5380DAA1C90E299ADA2DEF /* Pods-beCoMapOutdoorDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-beCoMapOutdoorDemo.release.xcconfig"; sourceTree = "<group>"; };
+		7408903FE4D616E2FD920A677DCB6769 /* SelectiveVisitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SelectiveVisitor.swift; path = Sources/SwiftProtobuf/SelectiveVisitor.swift; sourceTree = "<group>"; };
+		7596C8E164A8970B5322613AFDA1E268 /* UnsafeBufferPointer+Shims.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UnsafeBufferPointer+Shims.swift"; path = "Sources/SwiftProtobuf/UnsafeBufferPointer+Shims.swift"; sourceTree = "<group>"; };
+		75AF44E0A1F46B86336AEF75629C4D28 /* Enum.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Enum.swift; path = Sources/SwiftProtobuf/Enum.swift; sourceTree = "<group>"; };
+		768137B85969FAFB27CDB391C1CB4758 /* Message+BinaryAdditions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Message+BinaryAdditions.swift"; path = "Sources/SwiftProtobuf/Message+BinaryAdditions.swift"; sourceTree = "<group>"; };
+		7796E58F5B0CF8BD33446BA262AF819D /* Google_Protobuf_Timestamp+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Google_Protobuf_Timestamp+Extensions.swift"; path = "Sources/SwiftProtobuf/Google_Protobuf_Timestamp+Extensions.swift"; sourceTree = "<group>"; };
+		78CD701072C1D5751110D11BCEE83719 /* Message+TextFormatAdditions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Message+TextFormatAdditions.swift"; path = "Sources/SwiftProtobuf/Message+TextFormatAdditions.swift"; sourceTree = "<group>"; };
+		796FDF9E298E195D9F36099037F2947A /* duration.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = duration.pb.swift; path = Sources/SwiftProtobuf/duration.pb.swift; sourceTree = "<group>"; };
+		7B4A38B3C5AB7E099AFDE015A61C051E /* BinaryDecodingOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BinaryDecodingOptions.swift; path = Sources/SwiftProtobuf/BinaryDecodingOptions.swift; sourceTree = "<group>"; };
+		7EC21EEA21017549FE3C13A40709AB9C /* HashVisitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HashVisitor.swift; path = Sources/SwiftProtobuf/HashVisitor.swift; sourceTree = "<group>"; };
+		83D0AD90946D6B885F4B6CF0DEBC3912 /* Decoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Decoder.swift; path = Sources/SwiftProtobuf/Decoder.swift; sourceTree = "<group>"; };
+		84CCFA625E0B854BADA0774C5558345D /* Pods-beCoMapOutdoorDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-beCoMapOutdoorDemo-frameworks.sh"; sourceTree = "<group>"; };
+		89B0CCBC038754C8409E4179C739C274 /* JSONEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONEncoder.swift; path = Sources/SwiftProtobuf/JSONEncoder.swift; sourceTree = "<group>"; };
+		8F517C3519BC8171A03B479955EEEE2F /* Visitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Visitor.swift; path = Sources/SwiftProtobuf/Visitor.swift; sourceTree = "<group>"; };
+		8F881E3E85BBF0D6ABABBFE39D9E26A4 /* JSONEncodingError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONEncodingError.swift; path = Sources/SwiftProtobuf/JSONEncodingError.swift; sourceTree = "<group>"; };
+		90041BA676D535CB0A9EF134CAE229B2 /* GoogleMaps.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.xcconfig; sourceTree = "<group>"; };
+		917B7A91CE6F538BDB4970E71E41EEDD /* BinaryEncodingSizeVisitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BinaryEncodingSizeVisitor.swift; path = Sources/SwiftProtobuf/BinaryEncodingSizeVisitor.swift; sourceTree = "<group>"; };
+		929BDBE93489C847FC40794B97909BE2 /* struct.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = struct.pb.swift; path = Sources/SwiftProtobuf/struct.pb.swift; sourceTree = "<group>"; };
+		942C9A80537A7E8CC375CAFD360CD53F /* TextFormatDecodingError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFormatDecodingError.swift; path = Sources/SwiftProtobuf/TextFormatDecodingError.swift; sourceTree = "<group>"; };
+		943D347E61A2E181A4FA2CA894307B6E /* SwiftProtobuf.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftProtobuf.framework; path = SwiftProtobuf.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9628A3058CA7C767D806655BB6428718 /* ExtensionMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExtensionMap.swift; path = Sources/SwiftProtobuf/ExtensionMap.swift; sourceTree = "<group>"; };
+		97786DFA0C03B2C42F02876CA80B7D75 /* Message+JSONAdditions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Message+JSONAdditions.swift"; path = "Sources/SwiftProtobuf/Message+JSONAdditions.swift"; sourceTree = "<group>"; };
+		98BEA1A943F4C617C50527A34D2FA175 /* TextFormatEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFormatEncoder.swift; path = Sources/SwiftProtobuf/TextFormatEncoder.swift; sourceTree = "<group>"; };
+		9BCD59AE5F55BDFD00A69AAD4762A970 /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		9C8A83CFAD2575F4A561DDE3740C3B37 /* AnyMessageStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyMessageStorage.swift; path = Sources/SwiftProtobuf/AnyMessageStorage.swift; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E19824C0397CF66A7C0403BD214BEBB /* TextFormatScanner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TextFormatScanner.swift; path = Sources/SwiftProtobuf/TextFormatScanner.swift; sourceTree = "<group>"; };
+		9F0495F28E5B22237970518C69DB23FC /* Pods-beCoMapOutdoorDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-beCoMapOutdoorDemo-Info.plist"; sourceTree = "<group>"; };
+		A4A91CA751E35112ABD20A259F6291ED /* BinaryDelimited.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BinaryDelimited.swift; path = Sources/SwiftProtobuf/BinaryDelimited.swift; sourceTree = "<group>"; };
+		A4E9B8ADC4785A90567384021CD96DFB /* descriptor.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = descriptor.pb.swift; path = Sources/SwiftProtobuf/descriptor.pb.swift; sourceTree = "<group>"; };
+		A571CF13878BC574405A111B923BF687 /* Data+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Data+Extensions.swift"; path = "Sources/SwiftProtobuf/Data+Extensions.swift"; sourceTree = "<group>"; };
+		A5FA72A48A4F8FE04D5B53308C8AC7AA /* Pods-beCoMapOutdoorDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-beCoMapOutdoorDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
+		A69E42BBED74F26BF9CBAC0FED8D6690 /* SwiftProtobuf-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftProtobuf-Info.plist"; sourceTree = "<group>"; };
+		AAF21B034F7462387E785B02BDF51CC2 /* MathUtils.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MathUtils.swift; path = Sources/SwiftProtobuf/MathUtils.swift; sourceTree = "<group>"; };
+		AC5638FCBACADAC59E008872AEA4E465 /* BinaryDecoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BinaryDecoder.swift; path = Sources/SwiftProtobuf/BinaryDecoder.swift; sourceTree = "<group>"; };
+		AC5CE837E50231C73A77F6E02328C2B4 /* beCoMapOutdoor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = beCoMapOutdoor.framework; sourceTree = "<group>"; };
+		AEC55C068EDE0CD321F4482C5D9C8D2F /* Message+AnyAdditions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Message+AnyAdditions.swift"; path = "Sources/SwiftProtobuf/Message+AnyAdditions.swift"; sourceTree = "<group>"; };
+		B222FD3155089FA5AEA1AF4BD72B8D06 /* timestamp.pb.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = timestamp.pb.swift; path = Sources/SwiftProtobuf/timestamp.pb.swift; sourceTree = "<group>"; };
+		B451D3E9703E5074155F8F1FFA83974F /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		B5B2746966CB7C9CA32D8822F77994F7 /* SwiftProtobuf-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftProtobuf-prefix.pch"; sourceTree = "<group>"; };
+		B923B6BD13BD7AD2BF058254D8231F75 /* Pods-beCoMapOutdoorDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-beCoMapOutdoorDemo.modulemap"; sourceTree = "<group>"; };
+		B958943477F3A991FDFB2D478469C281 /* UnsafeRawPointer+Shims.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UnsafeRawPointer+Shims.swift"; path = "Sources/SwiftProtobuf/UnsafeRawPointer+Shims.swift"; sourceTree = "<group>"; };
+		CA95C0C3D1736FC4BB19620C5A196DBB /* Message+JSONArrayAdditions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Message+JSONArrayAdditions.swift"; path = "Sources/SwiftProtobuf/Message+JSONArrayAdditions.swift"; sourceTree = "<group>"; };
+		CDC6A6150266CADC6E3F07FC86B75A9F /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		D0A47FC131B2DEBB8E753E0C8A2EB2EA /* JSONDecodingOptions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONDecodingOptions.swift; path = Sources/SwiftProtobuf/JSONDecodingOptions.swift; sourceTree = "<group>"; };
+		D223F6ED417AA35FA7847698B9DC3D7E /* Pods_beCoMapOutdoorDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_beCoMapOutdoorDemo.framework; path = "Pods-beCoMapOutdoorDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D29449A433D1A844F3C62D25FB2E60EB /* GooglePlaces.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GooglePlaces.xcconfig; sourceTree = "<group>"; };
+		D48CB7E96B9C440DA586D383E75CB595 /* BinaryEncodingError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BinaryEncodingError.swift; path = Sources/SwiftProtobuf/BinaryEncodingError.swift; sourceTree = "<group>"; };
+		D601248E1647F5F79073BBCA1EDC32E9 /* Pods-beCoMapOutdoorDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-beCoMapOutdoorDemo-dummy.m"; sourceTree = "<group>"; };
+		DA972C3D1389427D60D0824525A6578E /* Google_Protobuf_Duration+Extensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Google_Protobuf_Duration+Extensions.swift"; path = "Sources/SwiftProtobuf/Google_Protobuf_Duration+Extensions.swift"; sourceTree = "<group>"; };
+		DABF76C1FD9184D67BD98DB7A4F65F29 /* ZigZag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ZigZag.swift; path = Sources/SwiftProtobuf/ZigZag.swift; sourceTree = "<group>"; };
+		DC04165FD205E6B1698F5C43B7F3991D /* ProtoNameProviding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProtoNameProviding.swift; path = Sources/SwiftProtobuf/ProtoNameProviding.swift; sourceTree = "<group>"; };
+		E06061B600166E213A5F9336728EFD3A /* Pods-beCoMapOutdoorDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-beCoMapOutdoorDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		E37AD01E0F5C7097E793C8CCBACDB104 /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
+		E5069846E649E09D08F51015C02081DF /* FieldTypes.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FieldTypes.swift; path = Sources/SwiftProtobuf/FieldTypes.swift; sourceTree = "<group>"; };
+		E6312FEF11B2AF2EBDC0D705A47FB87F /* DoubleParser.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DoubleParser.swift; path = Sources/SwiftProtobuf/DoubleParser.swift; sourceTree = "<group>"; };
+		E790E7B414B7C7AE10F8FB076EF691BC /* ExtensionFieldValueSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExtensionFieldValueSet.swift; path = Sources/SwiftProtobuf/ExtensionFieldValueSet.swift; sourceTree = "<group>"; };
+		E9C39160D9A1CE3084514E720457CD6F /* FieldTag.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = FieldTag.swift; path = Sources/SwiftProtobuf/FieldTag.swift; sourceTree = "<group>"; };
+		EACF2A03E4D9AAF644DAED5F5330620B /* ProtobufMap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProtobufMap.swift; path = Sources/SwiftProtobuf/ProtobufMap.swift; sourceTree = "<group>"; };
+		ED9C363C29DBBEADA0149FE0EFD7DE74 /* Pods-beCoMapOutdoorDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-beCoMapOutdoorDemo-umbrella.h"; sourceTree = "<group>"; };
+		EE24DCA8C43B6C14523DBDE69A9DFF69 /* BinaryDecodingError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BinaryDecodingError.swift; path = Sources/SwiftProtobuf/BinaryDecodingError.swift; sourceTree = "<group>"; };
+		EEC026DC3BF69C55A8A7E3D8974A81D4 /* BinaryEncodingVisitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BinaryEncodingVisitor.swift; path = Sources/SwiftProtobuf/BinaryEncodingVisitor.swift; sourceTree = "<group>"; };
+		F0361D2DA2F86C6AB50EA543E9E6024B /* ExtensibleMessage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ExtensibleMessage.swift; path = Sources/SwiftProtobuf/ExtensibleMessage.swift; sourceTree = "<group>"; };
+		F144CA01FB6EA873E3D6CB0EE2D43E48 /* UnknownStorage.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UnknownStorage.swift; path = Sources/SwiftProtobuf/UnknownStorage.swift; sourceTree = "<group>"; };
+		F7D9FB31FDD79E1CD75CF73D6D4F5BE4 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		FC6E83C7A5270952279F3679D6637B27 /* JSONEncodingVisitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = JSONEncodingVisitor.swift; path = Sources/SwiftProtobuf/JSONEncodingVisitor.swift; sourceTree = "<group>"; };
+		FD8964D3F47EAE4F8759859EBC7A9F32 /* ProtobufAPIVersionCheck.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ProtobufAPIVersionCheck.swift; path = Sources/SwiftProtobuf/ProtobufAPIVersionCheck.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4DB2BBC031784E0AAB284FCDA14DD2BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DD7485CFA4F468A9697A45A20BC8E5F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A84A5D13C8243D6615F8BCC691FF9D76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				29FD1D214A2461A7D66A670D7F8FE908 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		059DFF65D741B8670FAC243AD0D4A61C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D223F6ED417AA35FA7847698B9DC3D7E /* Pods_beCoMapOutdoorDemo.framework */,
+				943D347E61A2E181A4FA2CA894307B6E /* SwiftProtobuf.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		07EBA6AB28020D89962E86D86068A1D4 /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				E2F82C69CD1289D5FE599768FF501F84 /* Frameworks */,
+				5AC9C24BC2A8074EEF1E1B485E4940BA /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		0A46788064EC63A5D1033F8747C0C313 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				92925346D098BA079B417B6F788F8F0C /* Base */,
+				07EBA6AB28020D89962E86D86068A1D4 /* Maps */,
+				1499EDA4628A4B0E930C7F0C580F1BCD /* Support Files */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		1499EDA4628A4B0E930C7F0C580F1BCD /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				90041BA676D535CB0A9EF134CAE229B2 /* GoogleMaps.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleMaps";
+			sourceTree = "<group>";
+		};
+		2A6DFDF67A9BBFD81E1D41AEA041B23B /* SwiftProtobuf */ = {
+			isa = PBXGroup;
+			children = (
+				4940154A6B7C233F46FEE92BA01EFC6E /* any.pb.swift */,
+				9C8A83CFAD2575F4A561DDE3740C3B37 /* AnyMessageStorage.swift */,
+				118925FB5B820B45269C6272715151A3 /* AnyUnpackError.swift */,
+				50B90AC3DC7A0EC54BD33FA22E74EAF8 /* api.pb.swift */,
+				AC5638FCBACADAC59E008872AEA4E465 /* BinaryDecoder.swift */,
+				EE24DCA8C43B6C14523DBDE69A9DFF69 /* BinaryDecodingError.swift */,
+				7B4A38B3C5AB7E099AFDE015A61C051E /* BinaryDecodingOptions.swift */,
+				A4A91CA751E35112ABD20A259F6291ED /* BinaryDelimited.swift */,
+				5A2E43EB364A5D8AF7A9F8584276677D /* BinaryEncoder.swift */,
+				D48CB7E96B9C440DA586D383E75CB595 /* BinaryEncodingError.swift */,
+				917B7A91CE6F538BDB4970E71E41EEDD /* BinaryEncodingSizeVisitor.swift */,
+				EEC026DC3BF69C55A8A7E3D8974A81D4 /* BinaryEncodingVisitor.swift */,
+				07F01DA8DE9C7301134983B59D7451BC /* CustomJSONCodable.swift */,
+				A571CF13878BC574405A111B923BF687 /* Data+Extensions.swift */,
+				83D0AD90946D6B885F4B6CF0DEBC3912 /* Decoder.swift */,
+				A4E9B8ADC4785A90567384021CD96DFB /* descriptor.pb.swift */,
+				E6312FEF11B2AF2EBDC0D705A47FB87F /* DoubleParser.swift */,
+				796FDF9E298E195D9F36099037F2947A /* duration.pb.swift */,
+				1307715C6A9D799DE602831738F5F821 /* empty.pb.swift */,
+				75AF44E0A1F46B86336AEF75629C4D28 /* Enum.swift */,
+				F0361D2DA2F86C6AB50EA543E9E6024B /* ExtensibleMessage.swift */,
+				3C95037156B3F86640E6B073A6298985 /* ExtensionFields.swift */,
+				E790E7B414B7C7AE10F8FB076EF691BC /* ExtensionFieldValueSet.swift */,
+				9628A3058CA7C767D806655BB6428718 /* ExtensionMap.swift */,
+				3E962B65887429B419C0A38C693E760B /* field_mask.pb.swift */,
+				E9C39160D9A1CE3084514E720457CD6F /* FieldTag.swift */,
+				E5069846E649E09D08F51015C02081DF /* FieldTypes.swift */,
+				32069E13D153908E9EB3DD6936EF0E3D /* Google_Protobuf_Any+Extensions.swift */,
+				2B4719B30DF409D1B1253DE9BEE0D6BE /* Google_Protobuf_Any+Registry.swift */,
+				DA972C3D1389427D60D0824525A6578E /* Google_Protobuf_Duration+Extensions.swift */,
+				0735592A18ECC4E0D68A1160DABD0D8A /* Google_Protobuf_FieldMask+Extensions.swift */,
+				57E28B8749450EF3F93D5FC9A1BC093E /* Google_Protobuf_ListValue+Extensions.swift */,
+				247AD03B1D80468D5A386103DC047C8C /* Google_Protobuf_Struct+Extensions.swift */,
+				7796E58F5B0CF8BD33446BA262AF819D /* Google_Protobuf_Timestamp+Extensions.swift */,
+				32FCA66670CF798256537D3A80F871AE /* Google_Protobuf_Value+Extensions.swift */,
+				6CD2DCB6070D10F6E688BC09EAED4D1F /* Google_Protobuf_Wrappers+Extensions.swift */,
+				7EC21EEA21017549FE3C13A40709AB9C /* HashVisitor.swift */,
+				03FBCA537C02B73CF088AF4BF38552E1 /* Internal.swift */,
+				6CE6B0C7054A611B4CA94E35BE1D2B0B /* JSONDecoder.swift */,
+				4A478AEAF0B2AD46C68D88BAF046AFCA /* JSONDecodingError.swift */,
+				D0A47FC131B2DEBB8E753E0C8A2EB2EA /* JSONDecodingOptions.swift */,
+				89B0CCBC038754C8409E4179C739C274 /* JSONEncoder.swift */,
+				8F881E3E85BBF0D6ABABBFE39D9E26A4 /* JSONEncodingError.swift */,
+				38C47FA1328A607A584F899C63FA3062 /* JSONEncodingOptions.swift */,
+				FC6E83C7A5270952279F3679D6637B27 /* JSONEncodingVisitor.swift */,
+				226753589E81675507EDE155A7C85B22 /* JSONMapEncodingVisitor.swift */,
+				287E6225AAB009EAA7A2F52FA213CC21 /* JSONScanner.swift */,
+				AAF21B034F7462387E785B02BDF51CC2 /* MathUtils.swift */,
+				26F305DBBD7CC02CF7E638C41AA12464 /* Message.swift */,
+				AEC55C068EDE0CD321F4482C5D9C8D2F /* Message+AnyAdditions.swift */,
+				768137B85969FAFB27CDB391C1CB4758 /* Message+BinaryAdditions.swift */,
+				97786DFA0C03B2C42F02876CA80B7D75 /* Message+JSONAdditions.swift */,
+				CA95C0C3D1736FC4BB19620C5A196DBB /* Message+JSONArrayAdditions.swift */,
+				78CD701072C1D5751110D11BCEE83719 /* Message+TextFormatAdditions.swift */,
+				2ECB3A3C93B2EFB4355055301B7289C5 /* MessageExtension.swift */,
+				183C8077D4057F7689A32FD702873D23 /* NameMap.swift */,
+				FD8964D3F47EAE4F8759859EBC7A9F32 /* ProtobufAPIVersionCheck.swift */,
+				EACF2A03E4D9AAF644DAED5F5330620B /* ProtobufMap.swift */,
+				DC04165FD205E6B1698F5C43B7F3991D /* ProtoNameProviding.swift */,
+				7408903FE4D616E2FD920A677DCB6769 /* SelectiveVisitor.swift */,
+				055EB76984F1B05E63188508EF4E268E /* SimpleExtensionMap.swift */,
+				3FB4D868DB09688A84BCFB45D9AE0C05 /* source_context.pb.swift */,
+				31AECF47977AD58B69C39CC90C83528F /* StringUtils.swift */,
+				929BDBE93489C847FC40794B97909BE2 /* struct.pb.swift */,
+				2B8120395974D973BC656C06ECBA3C81 /* TextFormatDecoder.swift */,
+				942C9A80537A7E8CC375CAFD360CD53F /* TextFormatDecodingError.swift */,
+				98BEA1A943F4C617C50527A34D2FA175 /* TextFormatEncoder.swift */,
+				6529CD7BAFE128345BC1D1F227446E17 /* TextFormatEncodingOptions.swift */,
+				27D16CDF2F4E61A7AB01D9DD082E7AB2 /* TextFormatEncodingVisitor.swift */,
+				9E19824C0397CF66A7C0403BD214BEBB /* TextFormatScanner.swift */,
+				B222FD3155089FA5AEA1AF4BD72B8D06 /* timestamp.pb.swift */,
+				0DAE83C912E17F040C21EBCC310C3DC0 /* TimeUtils.swift */,
+				5945DED4ED66DA9203D24BF50A25A903 /* type.pb.swift */,
+				F144CA01FB6EA873E3D6CB0EE2D43E48 /* UnknownStorage.swift */,
+				7596C8E164A8970B5322613AFDA1E268 /* UnsafeBufferPointer+Shims.swift */,
+				B958943477F3A991FDFB2D478469C281 /* UnsafeRawPointer+Shims.swift */,
+				2D6641C8BE5188A7D640A6964D3AC089 /* Varint.swift */,
+				4BF8AD04D20A3E93E19C926CDB140C88 /* Version.swift */,
+				8F517C3519BC8171A03B479955EEEE2F /* Visitor.swift */,
+				342285ED797E216215487F6BF17F45CE /* WireFormat.swift */,
+				57BE251DAD11697F3EEDB7957DD21049 /* wrappers.pb.swift */,
+				DABF76C1FD9184D67BD98DB7A4F65F29 /* ZigZag.swift */,
+				77E3F6F4B442DF5D8F3E474690781126 /* Support Files */,
+			);
+			name = SwiftProtobuf;
+			path = SwiftProtobuf;
+			sourceTree = "<group>";
+		};
+		365E5E4F0F0D3049DDCD6C3CA4169D44 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3790303B08FC6A4F0B5D7DD3C441FB1A /* Pods-beCoMapOutdoorDemo */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3790303B08FC6A4F0B5D7DD3C441FB1A /* Pods-beCoMapOutdoorDemo */ = {
+			isa = PBXGroup;
+			children = (
+				B923B6BD13BD7AD2BF058254D8231F75 /* Pods-beCoMapOutdoorDemo.modulemap */,
+				A5FA72A48A4F8FE04D5B53308C8AC7AA /* Pods-beCoMapOutdoorDemo-acknowledgements.markdown */,
+				E06061B600166E213A5F9336728EFD3A /* Pods-beCoMapOutdoorDemo-acknowledgements.plist */,
+				D601248E1647F5F79073BBCA1EDC32E9 /* Pods-beCoMapOutdoorDemo-dummy.m */,
+				84CCFA625E0B854BADA0774C5558345D /* Pods-beCoMapOutdoorDemo-frameworks.sh */,
+				9F0495F28E5B22237970518C69DB23FC /* Pods-beCoMapOutdoorDemo-Info.plist */,
+				295D7A1E2C8FADDDC5B81FC6FE611471 /* Pods-beCoMapOutdoorDemo-resources.sh */,
+				ED9C363C29DBBEADA0149FE0EFD7DE74 /* Pods-beCoMapOutdoorDemo-umbrella.h */,
+				5E7AEF534EE0DCECC438522DD4D018D3 /* Pods-beCoMapOutdoorDemo.debug.xcconfig */,
+				6E503D6B9D5380DAA1C90E299ADA2DEF /* Pods-beCoMapOutdoorDemo.release.xcconfig */,
+			);
+			name = "Pods-beCoMapOutdoorDemo";
+			path = "Target Support Files/Pods-beCoMapOutdoorDemo";
+			sourceTree = "<group>";
+		};
+		5AC9C24BC2A8074EEF1E1B485E4940BA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				F7D9FB31FDD79E1CD75CF73D6D4F5BE4 /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6F57E4B8541900E733DF634419C4D4D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9E917E97634A22021B71E6E87BDC9777 /* beCoMapOutdoor */,
+				0A46788064EC63A5D1033F8747C0C313 /* GoogleMaps */,
+				A7FE50DD74E1CE1CCD0B961719011581 /* GooglePlaces */,
+				2A6DFDF67A9BBFD81E1D41AEA041B23B /* SwiftProtobuf */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		77E3F6F4B442DF5D8F3E474690781126 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				129BAA7AC562FBEDE9CB93566571D296 /* SwiftProtobuf.modulemap */,
+				6828CB052C2E6B64ECDFB47602D5E43F /* SwiftProtobuf.xcconfig */,
+				5B9E9BF90232FA2884A6512D2A9F8986 /* SwiftProtobuf-dummy.m */,
+				A69E42BBED74F26BF9CBAC0FED8D6690 /* SwiftProtobuf-Info.plist */,
+				B5B2746966CB7C9CA32D8822F77994F7 /* SwiftProtobuf-prefix.pch */,
+				063628854EFF6B66150104EDA5559EA1 /* SwiftProtobuf-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftProtobuf";
+			sourceTree = "<group>";
+		};
+		8F9DA790B8169B4152458200B4B234B6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42E42E019D7BA0613A6893E7B0F5E6EE /* GooglePlaces.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		92925346D098BA079B417B6F788F8F0C /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				E0D347EC81CB021D8A689DAB66216621 /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		9E917E97634A22021B71E6E87BDC9777 /* beCoMapOutdoor */ = {
+			isa = PBXGroup;
+			children = (
+				AF88CA0217E403E8ECB3DD2960A995BF /* Frameworks */,
+				F4A4800580F29F3AA0967006AD35F05F /* Support Files */,
+			);
+			name = beCoMapOutdoor;
+			path = beCoMapOutdoor;
+			sourceTree = "<group>";
+		};
+		A7FE50DD74E1CE1CCD0B961719011581 /* GooglePlaces */ = {
+			isa = PBXGroup;
+			children = (
+				8F9DA790B8169B4152458200B4B234B6 /* Frameworks */,
+				BBCE05728458E798BA8655ABC982A0EC /* Resources */,
+				C93BCEE20E29B8EC0B44553009B05C09 /* Support Files */,
+			);
+			name = GooglePlaces;
+			path = GooglePlaces;
+			sourceTree = "<group>";
+		};
+		AF88CA0217E403E8ECB3DD2960A995BF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC5CE837E50231C73A77F6E02328C2B4 /* beCoMapOutdoor.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BBCE05728458E798BA8655ABC982A0EC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				E37AD01E0F5C7097E793C8CCBACDB104 /* GooglePlaces.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C93BCEE20E29B8EC0B44553009B05C09 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				D29449A433D1A844F3C62D25FB2E60EB /* GooglePlaces.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GooglePlaces";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				6F57E4B8541900E733DF634419C4D4D1 /* Pods */,
+				059DFF65D741B8670FAC243AD0D4A61C /* Products */,
+				365E5E4F0F0D3049DDCD6C3CA4169D44 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E0D347EC81CB021D8A689DAB66216621 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B451D3E9703E5074155F8F1FFA83974F /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2F82C69CD1289D5FE599768FF501F84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9BCD59AE5F55BDFD00A69AAD4762A970 /* GoogleMaps.framework */,
+				CDC6A6150266CADC6E3F07FC86B75A9F /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F4A4800580F29F3AA0967006AD35F05F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				321221FF5A4ACD6F9679026DF1B42E57 /* beCoMapOutdoor.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/beCoMapOutdoor";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2EBA6DE12B1E364832A3BA15A5530672 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A460D858CB2252BEC746B0858F32AF4C /* SwiftProtobuf-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BD036759F03CC0624504572E604ED28 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				81FE33DC41F9463126D7DB1D55DA4E0C /* Pods-beCoMapOutdoorDemo-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		A094E67F047C75F26EEC324BB8C7AA29 /* Pods-beCoMapOutdoorDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 48C18C64D02E8E64E80B04A0DE780F16 /* Build configuration list for PBXNativeTarget "Pods-beCoMapOutdoorDemo" */;
+			buildPhases = (
+				9BD036759F03CC0624504572E604ED28 /* Headers */,
+				37712A749CAE3E49428565A23A677847 /* Sources */,
+				A84A5D13C8243D6615F8BCC691FF9D76 /* Frameworks */,
+				9F87473AEF4F6AB5FB471E8B86D95F6E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1717FE661E5845DD78C9D787F86840D9 /* PBXTargetDependency */,
+				DD24F345CBB344354EC77FD2C62BB5D8 /* PBXTargetDependency */,
+				FE8AB28E60861B06212EC93BEA06B382 /* PBXTargetDependency */,
+				10761E95A304C2DD1890C231998D14BC /* PBXTargetDependency */,
+			);
+			name = "Pods-beCoMapOutdoorDemo";
+			productName = "Pods-beCoMapOutdoorDemo";
+			productReference = D223F6ED417AA35FA7847698B9DC3D7E /* Pods_beCoMapOutdoorDemo.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A5F702E0DA383BC1479572581615A916 /* SwiftProtobuf */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9561D470BC1FB5F2D940C6981810368E /* Build configuration list for PBXNativeTarget "SwiftProtobuf" */;
+			buildPhases = (
+				2EBA6DE12B1E364832A3BA15A5530672 /* Headers */,
+				D58A50F843AD45FD8295F669F238F4EF /* Sources */,
+				4DB2BBC031784E0AAB284FCDA14DD2BF /* Frameworks */,
+				ACC9A143C46D45444AF0B2B417B0C2A9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftProtobuf;
+			productName = SwiftProtobuf;
+			productReference = 943D347E61A2E181A4FA2CA894307B6E /* SwiftProtobuf.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 059DFF65D741B8670FAC243AD0D4A61C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				60A3D577CE4C761F76AC5D77DD49A211 /* beCoMapOutdoor */,
+				E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */,
+				0C1885900810601510E0C632060FAF26 /* GooglePlaces */,
+				A094E67F047C75F26EEC324BB8C7AA29 /* Pods-beCoMapOutdoorDemo */,
+				A5F702E0DA383BC1479572581615A916 /* SwiftProtobuf */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9F87473AEF4F6AB5FB471E8B86D95F6E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ACC9A143C46D45444AF0B2B417B0C2A9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		37712A749CAE3E49428565A23A677847 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5B4B140B962F8BDE4F42228A45B68860 /* Pods-beCoMapOutdoorDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D58A50F843AD45FD8295F669F238F4EF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45F0556AB97DFAA72F7143C0E88A6222 /* any.pb.swift in Sources */,
+				0370DD7976BF534338E354D6FB0BBF0E /* AnyMessageStorage.swift in Sources */,
+				9631AFCA2E5CFDC709AF42DAE31B8988 /* AnyUnpackError.swift in Sources */,
+				48315880BA7838D4B18F9DD8A1AF1A86 /* api.pb.swift in Sources */,
+				DB159ACACBC5B6DCD4A473E2EEECD3FB /* BinaryDecoder.swift in Sources */,
+				A99EE4AC3ACBE7EB8A621F32C3BEDBAE /* BinaryDecodingError.swift in Sources */,
+				2FEEC457A1C8EA966BE8CBE3E15C603E /* BinaryDecodingOptions.swift in Sources */,
+				32689C0030285230B205D8CA63F8C1C0 /* BinaryDelimited.swift in Sources */,
+				0306324FB55AB79F74A36E63BF1B0B81 /* BinaryEncoder.swift in Sources */,
+				9A44C351C3709733A6F3ACE32AB1044D /* BinaryEncodingError.swift in Sources */,
+				8DAB08085FA4D6BDCFAE2D0185D5FA52 /* BinaryEncodingSizeVisitor.swift in Sources */,
+				279B5537027F820BFD2004D5261AE601 /* BinaryEncodingVisitor.swift in Sources */,
+				0AB6C4C39E9B72AC14C61C3FC5654BB0 /* CustomJSONCodable.swift in Sources */,
+				096291D2BEC9EB2BB9D9F45E2A9ACF94 /* Data+Extensions.swift in Sources */,
+				7503103A23C5BEAC08701D7690C7C534 /* Decoder.swift in Sources */,
+				7CA38B1CA9CE0A275B5571577F377F7E /* descriptor.pb.swift in Sources */,
+				BCA7647FD2F66D983199BB1CF6664CB1 /* DoubleParser.swift in Sources */,
+				BA669A1DF025DF98B72250FF8D1DFD5E /* duration.pb.swift in Sources */,
+				5722684F9F6DDD9960ECDDED608FE036 /* empty.pb.swift in Sources */,
+				06631E819F0CB4A8DD590F156B957F37 /* Enum.swift in Sources */,
+				C2FF9CA713BB3877B7823E06552CABEA /* ExtensibleMessage.swift in Sources */,
+				A78E247D684B263D82A79D37C7499E17 /* ExtensionFields.swift in Sources */,
+				D04606473D430C3CE00E9349DBC0ADBF /* ExtensionFieldValueSet.swift in Sources */,
+				2FAA0B1904BE39D4D5B82483A60454C1 /* ExtensionMap.swift in Sources */,
+				85A561105AEC6B20051107DD5BA4CB01 /* field_mask.pb.swift in Sources */,
+				FC6ED520E7F095AAADEA0992E6BDDB85 /* FieldTag.swift in Sources */,
+				F39B6C8C0C2AFDBCFB2DA479BBE5D602 /* FieldTypes.swift in Sources */,
+				FF05DD2F615A0D9275FE93D37B174661 /* Google_Protobuf_Any+Extensions.swift in Sources */,
+				5F007F7B75D1038D7ED99FF96B3727FF /* Google_Protobuf_Any+Registry.swift in Sources */,
+				986AB441F2847BF56DEFD9BF2608641F /* Google_Protobuf_Duration+Extensions.swift in Sources */,
+				9AE85857CE67A91D12D55A2E8A50CC59 /* Google_Protobuf_FieldMask+Extensions.swift in Sources */,
+				6C779DF7CBD3AB30F7F731175647DFAA /* Google_Protobuf_ListValue+Extensions.swift in Sources */,
+				2EB05CB081642467250D4195CEE8D342 /* Google_Protobuf_Struct+Extensions.swift in Sources */,
+				61BBD185A4127E16411C5345DD27EC8B /* Google_Protobuf_Timestamp+Extensions.swift in Sources */,
+				2B21506B950ADC53ED389942C1352BEC /* Google_Protobuf_Value+Extensions.swift in Sources */,
+				41F2BAE47F6F2DC9AD726741C73A00C4 /* Google_Protobuf_Wrappers+Extensions.swift in Sources */,
+				1C5B12E775561CB51F217D4CD2469E76 /* HashVisitor.swift in Sources */,
+				7E7D0974AF65E69EA2F59707F38E6D6C /* Internal.swift in Sources */,
+				A4B58A8D021F16AC0C4B1B9838CCFA6F /* JSONDecoder.swift in Sources */,
+				D517B3372A9C1002E730F86AC5DF9C18 /* JSONDecodingError.swift in Sources */,
+				6FB23BA39B74E065E6DBAC3B8E5E31A8 /* JSONDecodingOptions.swift in Sources */,
+				4FDB98306907B92A315FD49D24272882 /* JSONEncoder.swift in Sources */,
+				E7837748D1B8747874DB879661BCA826 /* JSONEncodingError.swift in Sources */,
+				6259B0850902090C1B2384E535945CA0 /* JSONEncodingOptions.swift in Sources */,
+				BDC759DB5C1470C63E6AB88B3D00940B /* JSONEncodingVisitor.swift in Sources */,
+				05428251AAD926AF0CAA2E133AF73EC1 /* JSONMapEncodingVisitor.swift in Sources */,
+				6F785A63F4717DD00C8A087D3B11510C /* JSONScanner.swift in Sources */,
+				70BE199C905DE3A20BCFAB1EC06891FE /* MathUtils.swift in Sources */,
+				BD9235D688A6C4A5DE40FB6FCB35E62F /* Message+AnyAdditions.swift in Sources */,
+				FA909BF12F800E32B86EF66E740CDD8B /* Message+BinaryAdditions.swift in Sources */,
+				D09DFBD07DAEAB2B34D98DDAE785E13D /* Message+JSONAdditions.swift in Sources */,
+				937032FB45A5B87EEE1D9200F272D56E /* Message+JSONArrayAdditions.swift in Sources */,
+				6CC4440EB2AE23FC9404AE5467C9B23F /* Message+TextFormatAdditions.swift in Sources */,
+				4F49DFB997F68A03D06D7A643EC8EE86 /* Message.swift in Sources */,
+				EBEA9E1298B3DC3DEFCB6E3035321484 /* MessageExtension.swift in Sources */,
+				9735DED140FA17180EA48D8CAAD756E4 /* NameMap.swift in Sources */,
+				40608B7D55F53F7F6E8E21445A79F189 /* ProtobufAPIVersionCheck.swift in Sources */,
+				A7DE0A908C573DA7885B66782BB7936C /* ProtobufMap.swift in Sources */,
+				977E473A1F173FCA0CD55DA4546BAF50 /* ProtoNameProviding.swift in Sources */,
+				2876B3898762093FDFDB8E08FEAEF9CE /* SelectiveVisitor.swift in Sources */,
+				768DE64CF1BFF124BFDFB2770EBBE9E2 /* SimpleExtensionMap.swift in Sources */,
+				B31DCE8FC88A879A05146AA4529F2561 /* source_context.pb.swift in Sources */,
+				78AB98FF31DE13D7D308AA14834053F9 /* StringUtils.swift in Sources */,
+				CBB48663F95851F328CF7FF3A3E4D107 /* struct.pb.swift in Sources */,
+				8174C363A8B7E844A9D1BBB01247F0E8 /* SwiftProtobuf-dummy.m in Sources */,
+				D68C466FD840785C0FA744C1E8C8C85B /* TextFormatDecoder.swift in Sources */,
+				F1FF438183E0E529B4ACE7256F30C1E8 /* TextFormatDecodingError.swift in Sources */,
+				B1882FD65D34E1035697D9F9379530F3 /* TextFormatEncoder.swift in Sources */,
+				922725F2C6E642C4AE96221992E97025 /* TextFormatEncodingOptions.swift in Sources */,
+				90655BE084B8049F64CC6B31C7C38024 /* TextFormatEncodingVisitor.swift in Sources */,
+				56C157C99B60F5630CCC809F4EDA8E38 /* TextFormatScanner.swift in Sources */,
+				5C5BCED0616B3D8EDADD47F7E16FE2B5 /* timestamp.pb.swift in Sources */,
+				2925DF5B9ABEF53D1750DAB9816EB575 /* TimeUtils.swift in Sources */,
+				3742D157F9A9B05A5838191174FFCBB7 /* type.pb.swift in Sources */,
+				8A060E13D58E21354826D24EB3EB5F78 /* UnknownStorage.swift in Sources */,
+				2571AE7B3E94F106F683084B75A74B70 /* UnsafeBufferPointer+Shims.swift in Sources */,
+				D885444883193D320C4A0C863B2B301C /* UnsafeRawPointer+Shims.swift in Sources */,
+				F5C12A16EEAC29631149A04B6DEAEA2E /* Varint.swift in Sources */,
+				55BBCD4D65B7B549C6AD0D64821C30A6 /* Version.swift in Sources */,
+				EADCA8080E8F56F6E60726B10A6BC3BD /* Visitor.swift in Sources */,
+				07F601495DDDC567417A65415CED5822 /* WireFormat.swift in Sources */,
+				36EF04020ECCC3C7A684E8BCAE37FB7C /* wrappers.pb.swift in Sources */,
+				FD3B8C98397263107A386BD690AA90B4 /* ZigZag.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		10761E95A304C2DD1890C231998D14BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = beCoMapOutdoor;
+			target = 60A3D577CE4C761F76AC5D77DD49A211 /* beCoMapOutdoor */;
+			targetProxy = 0FF111C2FACB660D3C73E3F88036D2D6 /* PBXContainerItemProxy */;
+		};
+		1717FE661E5845DD78C9D787F86840D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleMaps;
+			target = E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */;
+			targetProxy = 46139B3CCBA9328CEB633DEC164283F3 /* PBXContainerItemProxy */;
+		};
+		2C1CF7075656A33CBF4F676A5957E2A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleMaps;
+			target = E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */;
+			targetProxy = CEE46D7AE09E8D34A741031F0ADCC00A /* PBXContainerItemProxy */;
+		};
+		36E7BA2393C3F09FEB0B71DB37ED39EA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GooglePlaces;
+			target = 0C1885900810601510E0C632060FAF26 /* GooglePlaces */;
+			targetProxy = 57EC14269D188819035E6774DAE924A3 /* PBXContainerItemProxy */;
+		};
+		3FA465C952C1BCA2011B2D889762F65C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftProtobuf;
+			target = A5F702E0DA383BC1479572581615A916 /* SwiftProtobuf */;
+			targetProxy = 725594171DAF50D19F7FDA88B1E03D01 /* PBXContainerItemProxy */;
+		};
+		D42315111F400C0605ACCD6B5CAF2178 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleMaps;
+			target = E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */;
+			targetProxy = 6EB1C2DD30E6564FC3135C9E8002D8F7 /* PBXContainerItemProxy */;
+		};
+		DD24F345CBB344354EC77FD2C62BB5D8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GooglePlaces;
+			target = 0C1885900810601510E0C632060FAF26 /* GooglePlaces */;
+			targetProxy = 7C2AEB7B99C5C3C0FAA206E217605818 /* PBXContainerItemProxy */;
+		};
+		FE8AB28E60861B06212EC93BEA06B382 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftProtobuf;
+			target = A5F702E0DA383BC1479572581615A916 /* SwiftProtobuf */;
+			targetProxy = CA3E11FAC6FD76DAD0314FB4917FDADE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1A012E3076FEC66CBBF1160F10BC8014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6828CB052C2E6B64ECDFB47602D5E43F /* SwiftProtobuf.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftProtobuf/SwiftProtobuf-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftProtobuf/SwiftProtobuf-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftProtobuf/SwiftProtobuf.modulemap";
+				PRODUCT_MODULE_NAME = SwiftProtobuf;
+				PRODUCT_NAME = SwiftProtobuf;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		257497152829C177993B5EC99C1D227A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		27A48123A37C715729D5605F098569FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6828CB052C2E6B64ECDFB47602D5E43F /* SwiftProtobuf.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftProtobuf/SwiftProtobuf-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftProtobuf/SwiftProtobuf-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftProtobuf/SwiftProtobuf.modulemap";
+				PRODUCT_MODULE_NAME = SwiftProtobuf;
+				PRODUCT_NAME = SwiftProtobuf;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		32C2EABB58140A083C0AE38062E04F52 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 321221FF5A4ACD6F9679026DF1B42E57 /* beCoMapOutdoor.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4AA46832D8A16AA4E4811383B204D2A4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90041BA676D535CB0A9EF134CAE229B2 /* GoogleMaps.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8D892F764DE53555D8E5E5DBBD8FA84A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E7AEF534EE0DCECC438522DD4D018D3 /* Pods-beCoMapOutdoorDemo.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-beCoMapOutdoorDemo/Pods-beCoMapOutdoorDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-beCoMapOutdoorDemo/Pods-beCoMapOutdoorDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		907050E8ED96EF2CF04EC3D293E73BD9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D29449A433D1A844F3C62D25FB2E60EB /* GooglePlaces.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A42949759227AF8A169EB9245043CD1E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 321221FF5A4ACD6F9679026DF1B42E57 /* beCoMapOutdoor.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C7565AEA7FCD8F66CAF546DC5AF1404F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 90041BA676D535CB0A9EF134CAE229B2 /* GoogleMaps.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D2750F1E1CEB6D167B8B42DFA0DE073B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6E503D6B9D5380DAA1C90E299ADA2DEF /* Pods-beCoMapOutdoorDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-beCoMapOutdoorDemo/Pods-beCoMapOutdoorDemo-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-beCoMapOutdoorDemo/Pods-beCoMapOutdoorDemo.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		DC85D7712D8EE6E340F053BC38E1FB63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D29449A433D1A844F3C62D25FB2E60EB /* GooglePlaces.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DD8F832993327D1DD8046C3CBCBD97CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2FC2AC47FDB0310285CE777F18CD1532 /* Build configuration list for PBXAggregateTarget "GooglePlaces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				907050E8ED96EF2CF04EC3D293E73BD9 /* Debug */,
+				DC85D7712D8EE6E340F053BC38E1FB63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		362623C463179F4A2B76FF41B5A84B0E /* Build configuration list for PBXAggregateTarget "beCoMapOutdoor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A42949759227AF8A169EB9245043CD1E /* Debug */,
+				32C2EABB58140A083C0AE38062E04F52 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46921981F609C5BA3CB72EC4EA41299D /* Build configuration list for PBXAggregateTarget "GoogleMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4AA46832D8A16AA4E4811383B204D2A4 /* Debug */,
+				C7565AEA7FCD8F66CAF546DC5AF1404F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DD8F832993327D1DD8046C3CBCBD97CD /* Debug */,
+				257497152829C177993B5EC99C1D227A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		48C18C64D02E8E64E80B04A0DE780F16 /* Build configuration list for PBXNativeTarget "Pods-beCoMapOutdoorDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D892F764DE53555D8E5E5DBBD8FA84A /* Debug */,
+				D2750F1E1CEB6D167B8B42DFA0DE073B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9561D470BC1FB5F2D940C6981810368E /* Build configuration list for PBXNativeTarget "SwiftProtobuf" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A012E3076FEC66CBBF1160F10BC8014 /* Debug */,
+				27A48123A37C715729D5605F098569FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

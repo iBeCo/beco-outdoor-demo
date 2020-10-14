@@ -57,7 +57,7 @@ Import the beCoMapOutdoor SDK header file into your app's delegate file and in a
  
  ### Initialize the SDK
 
-Initialize BeCoServices with usage token and google API key.
+Initialize BeCoServices with usage token and google API key from your AppDelegate.
 
 ```
 let beCoServices = BeCoServices.sharedInstance()

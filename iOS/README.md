@@ -1,0 +1,82 @@
+---
+title: beCo Outdoor iOS SDK Quick Start Guide
+---
+
+The following information will help you to integrate the beCoMap SDK with your app using Xcode, Objective-C, and Swift.
+
+### Get Started
+beCo map outdoor SDK for iOS will help you setup a map based navigation system for your users on their apple devices. Using the SDK you can provide an interactive and engaging experience to your users with the least effort.
+
+### Requirements
+ * iOS 11.0 and above
+ * Location Services permissions set to **Always**
+ 
+
+### Get the latest version of Xcode 
+To integrate beCoMapOutdoor iOS SDK, install Xcode's latest version [Xcode](https://developer.apple.com/xcode/)
+
+
+### Install the SDK with CocoaPods
+**Note:** If you are using the enterprise version of the SDK please refer the on boarding documentation provided for installing the SDK.
+
+The beCoMap SDK for iOS is available as a CocoaPods pod. 
+If you don't already have the CocoaPods tool, install it on macOS by running the following command from the terminal. For details, see the [CocoaPods Getting Started guide.](https://guides.cocoapods.org/using/getting-started.html)
+
+Edit the Podfile and add your dependencies.
+```
+target 'YOUR_APPLICATION_TARGET_NAME_HERE' do
+  pod 'beCoMap', '~> YOUR_SDK_VERSION(eg:1.6)'
+end
+```
+Run the pod install command. This will install the APIs specified in the Podfile, along with any dependencies they may have.
+Close Xcode, and then open (double-click) your project's .xcworkspace file to launch Xcode. From this time onwards, you must use the .xcworkspace file to open the project.
+
+### Get a Server API Key
+The server API key is generarted for an organizations. The app will require keys that are pre-registered with the server that will be authenticated to get the access to the sites registered under the organization. 
+You can collect your Server API Key from the [beCo Dashboard](https://village-staging.becomap.com).
+
+### Get a Google API Key
+Generate your google maps API key from [Google console](https://console.cloud.google.com/google/maps-apis).
+
+### Giving permissions
+Add the following to your info.plist
+
+```
+<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+<string>Application requirs location aceess permision to track your location.</string>
+<key>NSLocationWhenInUseUsageDescription</key>
+<string>Application requirs location aceess permision to track your location.</string>
+```
+
+### Import Header File
+Import the beCoMapOutdoor SDK header file into your app's delegate file and in any other place that you plan to use it:
+
+ ```
+ import beCoMapOutdoor
+
+ ```
+ 
+ ### Initialize the SDK
+
+Initialize BeCoServices with usage token and google API key.
+
+```
+let beCoServices = BeCoServices.sharedInstance()
+beCoServices.configureWith(usageToken: "46e0b696979896d8b1ef4118f0ace9b096dc210c")
+beCoServices.provideAPIKey("AIzaSyCNLwu4eStBI-VeTFeNV7Gow35dMsr82ak")
+
+```
+
+ ### Setup your map view
+
+```
+let beCoMap = BEMapView.init(frame: .zero)
+beCoMap.mapDelegate = self
+beCoMap.loadSite("wtc2", name: "Global Village Dubai")
+view = beCoMap
+
+```
+
+ ### Test your app
+
+The beCoMap SDK should now be fully integrated in your app. Run the app and use the map. You’re done!

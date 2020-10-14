@@ -67,6 +67,8 @@ beCoServices.provideAPIKey("AIzaSyCNLwu4eStBI-VeTFeNV7Gow35dMsr82ak")
 ```
 
  ### Setup your map view
+ 
+ "wtc2" is the enviornment identifier. To get Global village use "global-village" as identifier.
 
 ```
 let beCoMap = BEMapView.init(frame: .zero)

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "229046752341",
+    "firebase_url": "https://beco-outdoor-demo.firebaseio.com",
+    "project_id": "beco-outdoor-demo",
+    "storage_bucket": "beco-outdoor-demo.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:229046752341:android:a182d94d92a2ad9034f0dc",
+        "android_client_info": {
+          "package_name": "com.test.beco_outdoor_demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "229046752341-af5j4l7lftplcf25kdbmcuvv7cioscet.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBpGMKGxg3ajsBOySI2dowOu4njsix5gDY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "229046752341-af5j4l7lftplcf25kdbmcuvv7cioscet.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

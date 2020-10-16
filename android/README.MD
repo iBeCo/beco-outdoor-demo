@@ -68,6 +68,13 @@ Finally apply plugin in App build.gradle at the bottom of the file
 ```
 apply plugin: 'org.beco.config'
 ```
+### Add Google Map API Key
+
+```
+<meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="YOUR_GOOGLE_API" />
+```
 
 ### Add Activities to Manifest
 

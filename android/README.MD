@@ -26,6 +26,25 @@ dependencies{
 
 Sync gradle.
 
+### Configuration File 
+
+You should create a beco-services.json file your project directory with the SDK key and enviornment id
+
+```
+{
+  "project_info": {
+    "api_key": "46e0b696979896d8b1ef4118f0ace9b096dc210c",
+    "environment_id": "global-village"
+  },
+  "search_settings": {
+    "base_color": ""
+  },
+  "configuration_version": "1"
+}
+
+```
+Please check the sample application for more info
+
 ### Adding Environment Json Parsing plugin. 
 
 This is required so as to parse the beco-services.json(containing api key and environment id.(json currently available in the demo)

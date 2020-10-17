@@ -43,6 +43,9 @@ You should create a beco-services.json file your project directory with the SDK 
 }
 
 ```
+
+On subsequent changes to the json file, please clean project and rebuild it before running it.
+
 Please check the sample application for more info
 
 ### Adding Environment Json Parsing plugin. 

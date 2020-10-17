@@ -82,7 +82,7 @@ apply plugin: 'org.beco.config'
 <activity android:name="com.beco.outdoor.sdk.map.BEMapActivity"
             android:screenOrientation="portrait"
             />
-        <activity android:name="com.beco.outdoor.sdk.map.search.BESearchActivity"
+<activity android:name="com.beco.outdoor.sdk.map.search.BESearchActivity"
             android:screenOrientation="portrait"
             />
 ```

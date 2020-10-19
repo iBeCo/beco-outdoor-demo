@@ -1,0 +1,29 @@
+PODS:
+  - GoogleMaps (3.7.0):
+    - GoogleMaps/Maps (= 3.7.0)
+  - GoogleMaps/Base (3.7.0)
+  - GoogleMaps/Maps (3.7.0):
+    - GoogleMaps/Base
+  - GooglePlaces (3.7.0):
+    - GoogleMaps/Base (= 3.7.0)
+  - SwiftProtobuf (1.12.0)
+
+DEPENDENCIES:
+  - GoogleMaps (= 3.7.0)
+  - GooglePlaces (= 3.7.0)
+  - SwiftProtobuf (~> 1.12.0)
+
+SPEC REPOS:
+  trunk:
+    - GoogleMaps
+    - GooglePlaces
+    - SwiftProtobuf
+
+SPEC CHECKSUMS:
+  GoogleMaps: 55da829c68aa931f3ae982b9e341cc2f3d89c587
+  GooglePlaces: a62077320f9d64239245af63aa1aa136393ebeb6
+  SwiftProtobuf: 4ef85479c18ca85b5482b343df9c319c62bda699
+
+PODFILE CHECKSUM: cc08425d6cbcd237916885d1035fb4c6c20d06e7
+
+COCOAPODS: 1.8.4

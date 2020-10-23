@@ -11,7 +11,7 @@ In Project build.gradle add
 ```
 allprojects{
 	repositories{
-		maven { url "https://raw.githubusercontent.com/iBeCo/beco-outdoor-sdk-android/beta" }
+		maven { url "https://raw.githubusercontent.com/iBeCo/beco-outdoor-sdk-android/beta-1" }
 	}
 }
 ```

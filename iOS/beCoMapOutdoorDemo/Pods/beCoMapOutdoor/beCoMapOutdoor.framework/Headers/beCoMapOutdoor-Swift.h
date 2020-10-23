@@ -318,7 +318,6 @@ SWIFT_CLASS("_TtC14beCoMapOutdoor9BEMapView")
 @end
 
 
-
 @class BEPoint;
 
 SWIFT_PROTOCOL("_TtP14beCoMapOutdoor17BEMapViewDelegate_")

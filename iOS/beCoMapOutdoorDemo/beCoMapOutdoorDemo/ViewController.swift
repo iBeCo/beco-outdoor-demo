@@ -15,7 +15,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         let beCoMap = BEMapView.init(frame: .zero)
-        beCoMap.loadSite("wtc2", name: "Global Village Dubai")//("rinoy-home", name: "Thrissur")//("global-village", name: "Global Village Dubai")
+        beCoMap.loadSite("global-village", name: "Global Village Dubai")//("rinoy-home", name: "Thrissur")//("global-village", name: "Global Village Dubai")
         view = beCoMap
         //beCoMap.mapDelegate = self
     }

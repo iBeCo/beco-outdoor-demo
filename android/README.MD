@@ -11,7 +11,7 @@ In Project build.gradle add
 ```
 allprojects{
 	repositories{
-		maven { url "https://raw.githubusercontent.com/iBeCo/beco-outdoor-sdk-android/beta-1" }
+		maven { url "https://raw.githubusercontent.com/iBeCo/beco-outdoor-sdk-android/beta" }
 	}
 }
 ```
@@ -20,7 +20,7 @@ Then in App build.gradle add
 
 ```
 dependencies{
-	implementation 'com.beco.outdoor:sdk:1.1'
+	implementation 'com.beco.outdoor:sdk:1.2'
 }
 ```
 

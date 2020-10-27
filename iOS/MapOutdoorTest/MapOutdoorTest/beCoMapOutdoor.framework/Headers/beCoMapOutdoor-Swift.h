@@ -264,13 +264,6 @@ SWIFT_CLASS("_TtC14beCoMapOutdoor10BELocation")
 /// Mithin Thomas
 SWIFT_CLASS("_TtC14beCoMapOutdoor6BEView")
 @interface BEView : UIView
-/// func voiceAssistanceEnabled:
-/// <ul>
-///   <li>
-///     Setting the value of this property to true will enable voice assistance and setting it to false will disable voice assistance. The default value is true.
-///   </li>
-/// </ul>
-@property (nonatomic) BOOL voiceAssistanceEnabled;
 /// You can create your map views programmatically. When creating a view, you typically specify its initial size and position relative to its future superview. To add BEView as a subview to another view, call the addSubview(_:) method on the superview.
 - (nonnull instancetype)initWithFrame:(CGRect)frame OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;

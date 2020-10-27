@@ -10,79 +10,79 @@
 		</data>
 		<key>BEMapSearchBar.nib/objects-13.0+.nib</key>
 		<data>
-		dyaxdqJKPZLacH8ZprAj3aboXjk=
+		6/et9yluclRCGHvKeFwWkazUiRI=
 		</data>
 		<key>BEMapSearchBar.nib/runtime.nib</key>
 		<data>
-		ukhJjZj7HNHnhNdVzMITXXMoKfE=
+		cLDXw2n1BmQzNn4G+XD8hvCRIS8=
 		</data>
 		<key>BENavSearchBar.nib/objects-13.0+.nib</key>
 		<data>
-		JtTxIK9bDEdkH95QG6S1NSpLdlA=
+		/opcVy3sTBdFSIFa5A7zhecwWAs=
 		</data>
 		<key>BENavSearchBar.nib/runtime.nib</key>
 		<data>
-		LwV61IOXfEUIeOnB5OupdXsGCq4=
+		SSmEOKG7mCMk5iPAynwzXOdqloE=
 		</data>
 		<key>BENavSearchCell.nib/objects-13.0+.nib</key>
 		<data>
-		XyRVpPRX1pabKQjsmsWflX4BhPY=
+		i3m5Wr/b4y+BrDuMPv+g+H73nVQ=
 		</data>
 		<key>BENavSearchCell.nib/runtime.nib</key>
 		<data>
-		Pn2owoajA2X9n6W6FzjvnsnEJcg=
+		f6xTnoV115hIFX9YDsI7p5ickCs=
 		</data>
 		<key>BENavigationAssist.nib</key>
 		<data>
-		Hw4YnRz5uExBnXIpLz8XdoKOzBE=
+		i09I/mISWRcSbEEm0T3dQD80lZA=
 		</data>
 		<key>BENavigationAssistView.nib/objects-13.0+.nib</key>
 		<data>
-		cgipAycg2S5PWl/L426kAKsY60c=
+		HQq5/QH4Y3ezBytD18JE5+g9KNM=
 		</data>
 		<key>BENavigationAssistView.nib/runtime.nib</key>
 		<data>
-		2XHWeSE9qARAcBuG3gaJidcn/tU=
+		OVAJ/u418x2gryZrhsloS2U+upo=
 		</data>
 		<key>BENavigationExit.nib/objects-13.0+.nib</key>
 		<data>
-		uP0V2uqa5laHdjz7bEGWpKs3P3Y=
+		w1TIDWaaRn+RqhfFDQkfwpyvDVg=
 		</data>
 		<key>BENavigationExit.nib/runtime.nib</key>
 		<data>
-		QdMi7bzbNowAou5ksH7gqzta128=
+		71dtgcCATMkINxu133jvvYKY98I=
 		</data>
 		<key>BENavigationInfoView.nib/objects-13.0+.nib</key>
 		<data>
-		SkQkco5DDr371UZfpAlRzsVcv9Y=
+		Vkh7K5Ee0EcD9VOGRyUFNfT0jxQ=
 		</data>
 		<key>BENavigationInfoView.nib/runtime.nib</key>
 		<data>
-		ouGFnPUSFWl4wVlM3f9e3eb7/y4=
+		Y3t8ddEyP3PkQcRi7d4jB6y77mc=
 		</data>
 		<key>BEPointAssistView.nib/objects-13.0+.nib</key>
 		<data>
-		gDTn6N24GG3VwsIfZcQkFBS7faM=
+		9iMtkhNgOXmHwLMnQDh7ln0rXEE=
 		</data>
 		<key>BEPointAssistView.nib/runtime.nib</key>
 		<data>
-		J9nQ7pAl7ex+rA+LAXnHyBFw3uY=
+		9rFr0HEdSsPfDdiPCgeVh8Vd3+Y=
 		</data>
 		<key>BESearchListView.nib/objects-13.0+.nib</key>
 		<data>
-		pSI3NKuNuPla7kEO73o/O6mQwfQ=
+		Lh0GBlnoaaBAWeEG81s0NGqgVG0=
 		</data>
 		<key>BESearchListView.nib/runtime.nib</key>
 		<data>
-		kqyitf92UU/TVJugHE3OMhDTEXs=
+		458gj0P/KXj3m6HduLBu+YnSRbU=
 		</data>
 		<key>BEStepSwitcher.nib/objects-13.0+.nib</key>
 		<data>
-		fFi2zTXaAOqnbaCU21YnDFCje44=
+		ZVF27WSmQLB6njsgOzw4WuXyNX0=
 		</data>
 		<key>BEStepSwitcher.nib/runtime.nib</key>
 		<data>
-		Z7G7LlCWindp4p5s1EvTpsyVYNU=
+		cwTrOI8SR0PXYfcaIp0uR+S4hQU=
 		</data>
 		<key>GoogleMaps.bundle/GMSCacheStorage.momd/Storage.mom</key>
 		<data>
@@ -1198,7 +1198,7 @@
 		</dict>
 		<key>Headers/beCoMapOutdoor-Swift.h</key>
 		<data>
-		hg2UoaTsVBs5RkfBvYUnSoB6IJ8=
+		KEx7m1q5O/Gxw/92EiMOGiErcoA=
 		</data>
 		<key>Headers/beCoMap_GlobalVillage.h</key>
 		<data>
@@ -1210,27 +1210,27 @@
 		</data>
 		<key>Modules/beCoMapOutdoor.swiftmodule/Project/arm64-apple-ios.swiftsourceinfo</key>
 		<data>
-		dFbbzWqZ35Kbbl7+mfWtORpgf2w=
+		k084U+Cer1hnu6lrlOVBJvQl0x0=
 		</data>
 		<key>Modules/beCoMapOutdoor.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<data>
-		dFbbzWqZ35Kbbl7+mfWtORpgf2w=
+		k084U+Cer1hnu6lrlOVBJvQl0x0=
 		</data>
 		<key>Modules/beCoMapOutdoor.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<data>
-		IHjMdAMNp4FNTxNL8coDJsxB+tM=
+		xS8otkyg+UZ27SPv019IMR+5xlA=
 		</data>
 		<key>Modules/beCoMapOutdoor.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<data>
-		oxjU6nb8ZEZ4Hvmo9CoIg6rnnrM=
+		1cUr9q2VkAwCkPZA/gMa9alWNSE=
 		</data>
 		<key>Modules/beCoMapOutdoor.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		IHjMdAMNp4FNTxNL8coDJsxB+tM=
+		xS8otkyg+UZ27SPv019IMR+5xlA=
 		</data>
 		<key>Modules/beCoMapOutdoor.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		oxjU6nb8ZEZ4Hvmo9CoIg6rnnrM=
+		1cUr9q2VkAwCkPZA/gMa9alWNSE=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -1238,11 +1238,11 @@
 		</data>
 		<key>SearchTableViewCell.nib/objects-13.0+.nib</key>
 		<data>
-		QGJrnmQ3zlvGEKHQWMG8aKO8iu8=
+		eJvy1OuVuSdFalZJE8iiOh8ZZQY=
 		</data>
 		<key>SearchTableViewCell.nib/runtime.nib</key>
 		<data>
-		9HaUloLVmnDEG/W3y6ZDHUFGwdo=
+		qv48+hetaI/Yt75WqggpXHu7/Os=
 		</data>
 		<key>style.json</key>
 		<data>
@@ -1262,133 +1262,133 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			S4ODCmFSwDQf1O87DXWcdiUu4+v+He+dP0lZ3dD0pJo=
+			hxZy2u8+Yd7XM3zVBR7dZ9eB1X3W06hFZr/KizPxF+A=
 			</data>
 		</dict>
 		<key>BEMapSearchBar.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			w0ziqAxCjys1fHTb/mQyywFY44mOT6Y+IEjiwWTiLOc=
+			ueqkavz/arVdkD9303wcvef0sN5caPe2in7hVTdr/CQ=
 			</data>
 		</dict>
 		<key>BENavSearchBar.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			jKfXJG1bpX9hGfJKMSq7HwCnIPKJ/2oJqp7bn0UarM8=
+			aX6yTcllvBS/ZHbZhl0fOGRB/Kq/4QwvQ8X8JTk7sQ0=
 			</data>
 		</dict>
 		<key>BENavSearchBar.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			6kI0cmmCdovyyRYq6gKST6jOjbhfsHpPb8XydvnIS7I=
+			hbbTLQ3/H7OwDJllT0RV+P5qgVuCcft9biqVQvRyj4Q=
 			</data>
 		</dict>
 		<key>BENavSearchCell.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			gvGbTOdTD3Tke1cEmCGfmsEgzwxjb032oI7iUTEXRaI=
+			evBUTHfONCl/Xvc8EPpuT1COoiuyPQua/uMdsxWVYTg=
 			</data>
 		</dict>
 		<key>BENavSearchCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/UypsbdCV5Nd8Nwwo+6lHTAA2vUTdaJeS3lLJpIB4Mo=
+			91qvIOqi26tMUx3/hQEW18EpqWieBd5zxbUzN/q1SQM=
 			</data>
 		</dict>
 		<key>BENavigationAssist.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ms6L3/5a44kGmsrWfh9qJ/uaz4EqGp8I/ceM/gJ+QyU=
+			tqHYCoEK/KzsrkLpLNOlQ79f//mlo3h357ZF0JtnUO4=
 			</data>
 		</dict>
 		<key>BENavigationAssistView.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			Vk7uSM7/P5VwbJHnPBPIX7CO4pl8ThjsF2y2WpOFHc8=
+			5BYSTuk3+B2cKEeLbwgj3ik+dZQFo90fWa5dZEYZXmw=
 			</data>
 		</dict>
 		<key>BENavigationAssistView.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			G9A0ZJ70oe44uFhTKduiLriFQQwJPl9kOkPja/p96Hs=
+			0/JUDxbhd1rxsshwNChjs1JtUL6rg2bDq7iH85S4nCI=
 			</data>
 		</dict>
 		<key>BENavigationExit.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			F1fTahvf6PCoGdch2rQwROAZIXw89g6qA0I72Py4ekY=
+			bnQhgNJUqkqnDSmt4n1JDGek6mf40Nfh6+tDnv86On4=
 			</data>
 		</dict>
 		<key>BENavigationExit.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			oi3MNZVGl1mGNQlHoKlS7nbGRl5KCA8D0aq5qpBDUd0=
+			e9pyL+0nDrZQOWgE33CnWanPkbqCBteJIhYroiPTxng=
 			</data>
 		</dict>
 		<key>BENavigationInfoView.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			FM4fi6WqsHjhVgtX1rGl6yywQFIfxJfLRphFHRAsgPA=
+			zlYbUcefyJil/CSsqik9gt5jWDkLzZI4e1MXdkaTZKs=
 			</data>
 		</dict>
 		<key>BENavigationInfoView.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			ElXBA9j0k303+74dmLDUqLWCndiCuZHpXG6OJO5rXLk=
+			tOP6TYQ2N2WS0PIt0AFmBqLwrv0FRIXfDfDxsWoa1kk=
 			</data>
 		</dict>
 		<key>BEPointAssistView.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			DHmjPbdmkDC+t2axBu7OLZM8O48TeI5TO0UFELZUyS4=
+			mDm/sODJyfGnAVG+LoZMLVYkvM/B/SLiuEkXxTht1XI=
 			</data>
 		</dict>
 		<key>BEPointAssistView.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			IvhZFjViYt5LnvWrJeYsO9ImlOkMCPqa5Wffb+ohOjM=
+			sdEZCr+gjTiRTM7A/IL35wm+yco0RoSTXsCVxInwgVM=
 			</data>
 		</dict>
 		<key>BESearchListView.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			g2s+fIjzG7GWKhZwSJtD145gRlWPC3MywGTZbmUOLQE=
+			7OE4kcgXIhmDMNc9moVvunbuDA+K0caNnPaC+YHoykc=
 			</data>
 		</dict>
 		<key>BESearchListView.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			zMyWr8dmsukhbLbnEfIY9N7NoTBADbBYwnjBNEUSUsk=
+			qoPHksb0UCuud3K72ZGSbyiRznvVJ4Co7d0uWvJjOFQ=
 			</data>
 		</dict>
 		<key>BEStepSwitcher.nib/objects-13.0+.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			5ZwL3aaoWmhyRZPAy6UlcYFmSv+uMvw/mz9+gw3HZC0=
+			UdmWMrEK9XZiW82YuN5AFid0RbIVRvJD1U51Bj+Q7ks=
 			</data>
 		</dict>
 		<key>BEStepSwitcher.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			kX2ti49SUND8KGAgSBzUSSR8yFTnludoVeeB513iisI=
+			BMzswbn3PfC7ipWKSTX4xjTUgAY6QuRHhooxyCRaSwM=
 			</data>
 		</dict>
 		<key>GoogleMaps.bundle/GMSCacheStorage.momd/Storage.mom</key>
@@ -2747,7 +2747,7 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			IKm+CzfTc6mJJlehP7KexsWR3sFCVNmaixP/tEqn/J8=
+			ANR4z/pbeZammlo+FCJNgk5XFq6/Shh1Nd55Y8GRcOQ=
 			</data>
 		</dict>
 		<key>Headers/beCoMap_GlobalVillage.h</key>
@@ -2761,42 +2761,42 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			1b9IOOYmqtVv+oQDoIfrgFxVxWmLEeXuirILYZbGT/w=
+			jH2B9kQ+Im3+o4rZU0B7Xz9eQUsNM3NfcI/Em1AZ2Vs=
 			</data>
 		</dict>
 		<key>Modules/beCoMapOutdoor.swiftmodule/Project/arm64.swiftsourceinfo</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			1b9IOOYmqtVv+oQDoIfrgFxVxWmLEeXuirILYZbGT/w=
+			jH2B9kQ+Im3+o4rZU0B7Xz9eQUsNM3NfcI/Em1AZ2Vs=
 			</data>
 		</dict>
 		<key>Modules/beCoMapOutdoor.swiftmodule/arm64-apple-ios.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/ZnpzIr7mE4daIFxi+n2wfbdNAkm3BHsaeZgYwVVMxE=
+			rJr6b4cdJHzXfvjIEHOKhh725b6g41ShCL4t2CE9twE=
 			</data>
 		</dict>
 		<key>Modules/beCoMapOutdoor.swiftmodule/arm64-apple-ios.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			N4zTHR5WQJs3URNcs6UE5wIDKmjl49p+9sK2YxEPvl4=
+			NoK29+e1zSfCXyHrBDzmy6uLtBvECTix2dTkM7j9x0c=
 			</data>
 		</dict>
 		<key>Modules/beCoMapOutdoor.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			/ZnpzIr7mE4daIFxi+n2wfbdNAkm3BHsaeZgYwVVMxE=
+			rJr6b4cdJHzXfvjIEHOKhh725b6g41ShCL4t2CE9twE=
 			</data>
 		</dict>
 		<key>Modules/beCoMapOutdoor.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			N4zTHR5WQJs3URNcs6UE5wIDKmjl49p+9sK2YxEPvl4=
+			NoK29+e1zSfCXyHrBDzmy6uLtBvECTix2dTkM7j9x0c=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>
@@ -2810,14 +2810,14 @@
 		<dict>
 			<key>hash2</key>
 			<data>
-			TPuk62mLErK7sta0tiVz/i+GRZf93tmYyGjz41Dnzaw=
+			4GF7X79docujx8e7YvT4FJhPVWbVFNxNcTujm5VQSQs=
 			</data>
 		</dict>
 		<key>SearchTableViewCell.nib/runtime.nib</key>
 		<dict>
 			<key>hash2</key>
 			<data>
-			GYEEjYVXpkXpLKA0EoHdjbijbN7+szWqPAevIeZ56LA=
+			r+fyqfTcgnYRuiEa72MhlMks3Iq5tFLwd6dDAFGIfiQ=
 			</data>
 		</dict>
 		<key>style.json</key>

@@ -10,18 +10,26 @@ import UIKit
 import beCoMapOutdoor
 
 class ViewController: UIViewController {
+    
+    
+    var beCoMap : BEMapView?
 
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let beCoMap = BEMapView.init(frame: .zero)
-        beCoMap.loadSite("global-village", name: "Global Village Dubai")
-        beCoMap.mapDelegate = self
+        beCoMap = BEMapView.init(frame: .zero)
+        beCoMap!.loadSite("global-village", name: "Thrissur")//test-environment , global-village , wtc2 , kumbanad
         view = beCoMap
+        beCoMap!.mapDelegate = self
     }
 }
 
 extension ViewController: BEMapViewDelegate {
+    
+    func becoView(_ mapView: BEMapView, didLoadWith site: BESite) {
+        let points: [Int32] = [5215,5505]
+        beCoMap!.drawRouteWith(points)
+    }
     
     func becoMapView(_ mapView: BEMapView, didFailedWith error: Error) {
         print("error \(error)")

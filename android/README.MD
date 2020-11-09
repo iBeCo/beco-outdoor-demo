@@ -101,8 +101,8 @@ import com.beco.outdoor.sdk.utils.Constants;
 
 Intent nav = new Intent(this, BEMapActivity.class);
 ArrayList<Integer> waypointInt = new ArrayList<>();
-waypointInt.add(4499);
-waypointInt.add(4461);
+waypointInt.add("point id");
+waypointInt.add("point id");
 nav.putIntegerArrayListExtra(Constants.WAYPOINT_INTENT,waypointInt);
 startActivity(nav);
 ```

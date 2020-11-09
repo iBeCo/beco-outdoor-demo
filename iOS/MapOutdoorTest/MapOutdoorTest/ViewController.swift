@@ -14,7 +14,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         let beCoMap = BEMapView.init(frame: .zero)
-        beCoMap.loadSite("global-village", name: "Global Village Dubai")
+        beCoMap.loadSite("global-village", name: "Global Village Dubai")//test-environment , global-village , wtc2 , kumbanad
         view = beCoMap
         beCoMap.mapDelegate = self
     }

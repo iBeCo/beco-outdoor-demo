@@ -97,6 +97,8 @@ Call the BEMapActivity as you would any other activity from your class.
 For passing the points iformation to draw route while opening the activity you need to pass the point data along with the intent 
 
 ```
+import com.beco.outdoor.sdk.utils.Constants;
+
 Intent nav = new Intent(this, BEMapActivity.class);
 ArrayList<Integer> waypointInt = new ArrayList<>();
 waypointInt.add(4499);

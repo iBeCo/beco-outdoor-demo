@@ -77,7 +77,7 @@ view = beCoMap
 
 ```
 
- ### Draw route from app ( Only Available after 1.3.1)
+ ### Draw route from app
  After loading the map you can supply list of node id's to the sdk and, can programatically draw route.
  You must supply 2-5 valid point id's as a list.
  ```
@@ -85,7 +85,7 @@ view = beCoMap
  beCoMap.drawRouteWith(points)
  ```
 
- #### How to know map is loaded? ( Only Available after 1.3.1)
+ #### How to know map is loaded?
  You will get a success call back on following delegate method.
  ```
  func becoView(_ mapView: BEMapView, didLoadWith site: BESite)

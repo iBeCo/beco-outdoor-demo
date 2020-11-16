@@ -1,5 +1,6 @@
-## beCo Outdoor iOS SDK Quick Start Guide
-
+---
+title: beCo Outdoor iOS SDK Quick Start Guide
+---
 
 The following information will help you to integrate the beCoMap SDK with your app using Xcode, Objective-C, and Swift.
 
@@ -24,7 +25,7 @@ If you don't already have the CocoaPods tool, install it on macOS by running the
 Edit the Podfile and add your dependencies.
 ```
 target 'YOUR_APPLICATION_TARGET_NAME_HERE' do
-  pod 'beCoMapOutdoor', '~> YOUR_SDK_VERSION(eg:0.1.0)'
+  pod 'beCoMap', '~> YOUR_SDK_VERSION(eg:1.6)'
 end
 ```
 Run the pod install command. This will install the APIs specified in the Podfile, along with any dependencies they may have.
@@ -57,7 +58,7 @@ Import the beCoMapOutdoor SDK header file into your app's delegate file and in a
  
  ### Initialize the SDK
 
-Initialize BeCoServices with usage token and google API key from your AppDelegate.
+Initialize BeCoServices with usage token and google API key.
 
 ```
 let beCoServices = BeCoServices.sharedInstance()
@@ -67,8 +68,6 @@ beCoServices.provideAPIKey("AIzaSyCNLwu4eStBI-VeTFeNV7Gow35dMsr82ak")
 ```
 
  ### Setup your map view
- 
- "wtc2" is the enviornment identifier. To get Global village use "global-village" as identifier.
 
 ```
 let beCoMap = BEMapView.init(frame: .zero)
@@ -77,6 +76,20 @@ beCoMap.loadSite("wtc2", name: "Global Village Dubai")
 view = beCoMap
 
 ```
+
+ ### Draw route from app
+ After loading the map you can supply list of node id's to the sdk and, can programatically draw route.
+ You must supply 2-5 valid point id's as a list.
+ ```
+ let points: [Int32] = [5215,5505]
+ beCoMap.drawRouteWith(points)
+ ```
+
+ #### How to know map is loaded?
+ You will get a success call back on following delegate method.
+ ```
+ func becoView(_ mapView: BEMapView, didLoadWith site: BESite)
+ ```
 
  ### Test your app
 

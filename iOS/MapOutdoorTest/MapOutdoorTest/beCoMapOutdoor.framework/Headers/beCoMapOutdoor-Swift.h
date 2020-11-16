@@ -298,7 +298,7 @@ SWIFT_CLASS("_TtC14beCoMapOutdoor9BEMapView")
 ///     show route and assistview based on this int32 ids
 ///   </li>
 /// </ul>
-/// \param pointIds [Int32] reference
+/// \param pointIds [Int32] Node id list
 ///
 - (void)drawRouteWith:(NSArray<NSNumber *> * _Nonnull)pointIds;
 /// func resetMap
@@ -311,10 +311,25 @@ SWIFT_CLASS("_TtC14beCoMapOutdoor9BEMapView")
 @end
 
 
+@class BESite;
 @class BEPoint;
 
 SWIFT_PROTOCOL("_TtP14beCoMapOutdoor17BEMapViewDelegate_")
 @protocol BEMapViewDelegate <NSObject>
+/// becoView:didLoadWith:
+/// <ul>
+///   <li>
+///     BEViewDelegate non-optional method.
+///   </li>
+///   <li>
+///     Invoked when a BESite is loaded in your BEView.
+///   </li>
+/// </ul>
+/// \param mapView BEMapView reference
+///
+/// \param site BESite reference
+///
+- (void)becoView:(BEMapView * _Nonnull)mapView didLoadWith:(BESite * _Nonnull)site;
 /// becoMapView:didFailedWith:
 /// <ul>
 ///   <li>

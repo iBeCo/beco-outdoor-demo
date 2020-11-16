@@ -1,4 +1,0 @@
-framework module beCoMapOutdoor {
-  header "beCoMapOutdoor-Swift.h"
-  requires objc
-}

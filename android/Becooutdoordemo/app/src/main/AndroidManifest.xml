@@ -11,7 +11,7 @@
         android:theme="@style/Theme.Becooutdoordemo">
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="YOUR_GOOGLE_API" />
+            android:value="AIzaSyBYaQLOfjSJ7jlztZTSG6e57TuGrUCRC-M" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

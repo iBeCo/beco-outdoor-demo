@@ -27,8 +27,9 @@ class ViewController: UIViewController {
 extension ViewController: BEMapViewDelegate {
     
     func becoView(_ mapView: BEMapView, didLoadWith site: BESite) {
-        let points: [Int32] = [5215,5505]
-        beCoMap!.drawRouteWith(points)
+        //let points: [Int32] = [5215,5505]
+        //beCoMap!.drawRouteWith(points)
+        beCoMap!.selectPoint(19358)
     }
     
     func becoMapView(_ mapView: BEMapView, didFailedWith error: Error) {

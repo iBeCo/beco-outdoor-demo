@@ -20,7 +20,7 @@ Then in App build.gradle add
 
 ```
 dependencies{
-	implementation 'com.beco.outdoor:sdk:1.6'
+	implementation 'com.beco.outdoor:sdk:1.7'
 }
 ```
 
@@ -94,7 +94,7 @@ apply plugin: 'org.beco.config'
 
 Call the BEMapActivity as you would any other activity from your class.
 
-For passing the points iformation to draw route while opening the activity you need to pass the point data along with the intent 
+For passing the points information to draw route while opening the activity you need to pass the point data along with the intent 
 
 ```
 import com.beco.outdoor.sdk.utils.Constants;
@@ -105,4 +105,15 @@ waypointInt.add("point id");
 waypointInt.add("point id");
 nav.putIntegerArrayListExtra(Constants.WAYPOINT_INTENT,waypointInt);
 startActivity(nav);
+
 ```
+
+For passing the points information to select a point while opening the activity you need to pass the point data along with the intent 
+
+```
+import com.beco.outdoor.sdk.utils.Constants;
+
+Intent nav = new Intent(this, BEMapActivity.class);
+nav.putExtra(Constants.POINT_INTENT,19303);
+startActivity(nav);
+

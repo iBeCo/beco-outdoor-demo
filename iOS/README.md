@@ -77,6 +77,13 @@ view = beCoMap
 
 ```
 
+ ### Select point from app
+ After loading the map, you can programatically select a point using the point id.
+ ```
+ beCoMap!.selectPoint(19358)
+ ```
+
+
  ### Draw route from app
  After loading the map you can supply list of node id's to the sdk and, can programatically draw route.
  You must supply 2-5 valid point id's as a list.

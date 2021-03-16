@@ -20,7 +20,7 @@ Then in App build.gradle add
 
 ```
 dependencies{
-	implementation 'com.beco.outdoor:sdk:1.8'
+	implementation 'com.beco.outdoor:sdk:1.9'
 }
 ```
 
@@ -99,11 +99,11 @@ For passing the points information to draw route while opening the activity you 
 ```
 import com.beco.outdoor.sdk.utils.Constants;
 
-Intent nav = new Intent(this, BEMapActivity.class);
-ArrayList<Integer> waypointInt = new ArrayList<>();
-waypointInt.add("point id");
-waypointInt.add("point id");
-nav.putIntegerArrayListExtra(Constants.WAYPOINT_INTENT,waypointInt);
+Intent nav = new Intent(MainActivity.this, BEMapActivity.class);
+ArrayList<String> waypointInt = new ArrayList<>();
+waypointInt.add("main stage");
+waypointInt.add("dry fountain");
+nav.putStringArrayListExtra(Constants.WAYPOINT_INTENT,waypointInt);
 startActivity(nav);
 
 ```
@@ -114,6 +114,6 @@ For passing the points information to select a point while opening the activity 
 import com.beco.outdoor.sdk.utils.Constants;
 
 Intent nav = new Intent(this, BEMapActivity.class);
-nav.putExtra(Constants.POINT_INTENT,19303);
+nav.putExtra(Constants.POINT_INTENT,"Europe");
 startActivity(nav);
 

@@ -82,6 +82,11 @@ view = beCoMap
  ```
  beCoMap!.selectPoint(19358)
  ```
+ 
+Select a point using the point name.
+ ```
+ beCoMap!.selectPointWithName("main stage")
+ ```
 
 
  ### Draw route from app
@@ -91,6 +96,13 @@ view = beCoMap
  let points: [Int32] = [5215,5505]
  beCoMap.drawRouteWith(points)
  ```
+ 
+Programatically draw route using the point name.
+  ```
+  let points: [String] = ["main stage","dry fountain"]
+  beCoMap!.drawRouteWithName(points)
+  ```
+ 
 
  #### How to know map is loaded?
  You will get a success call back on following delegate method.

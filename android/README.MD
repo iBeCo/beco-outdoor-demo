@@ -117,3 +117,18 @@ Intent nav = new Intent(this, BEMapActivity.class);
 nav.putExtra(Constants.POINT_INTENT,"Europe");
 startActivity(nav);
 
+```
+
+For Arabic implementation you should pass the below param with the intent
+
+
+```
+nav.putExtra(Constants.LANGUAGE_CODE, LanguageCode.ARABIC.getLanguage());
+```
+
+Import Constants and LanguageCode
+
+```
+import com.beco.outdoor.sdk.utils.Constants;
+import com.beco.outdoor.sdk.utils.LanguageCode;
+```

@@ -72,7 +72,7 @@ beCoServices.provideAPIKey("AIzaSyCNLwu4eStBI-VeTFeNV7Gow35dMsr82ak")
 ```
 let beCoMap = BEMapView.init(frame: .zero)
 beCoMap.mapDelegate = self
-beCoMap.loadSite("wtc2", name: "Global Village Dubai")
+beCoMap.loadSite("global-village-21-22", name: "Thrissur", language: .arabic)
 view = beCoMap
 
 ```
@@ -81,11 +81,6 @@ view = beCoMap
  After loading the map, you can programatically select a point using the point id.
  ```
  beCoMap!.selectPoint(19358)
- ```
- 
-Select a point using the point name.
- ```
- beCoMap!.selectPointWithName("main stage")
  ```
 
 
@@ -96,13 +91,6 @@ Select a point using the point name.
  let points: [Int32] = [5215,5505]
  beCoMap.drawRouteWith(points)
  ```
- 
-Programatically draw route using the point name.
-  ```
-  let points: [String] = ["main stage","dry fountain"]
-  beCoMap!.drawRouteWithName(points)
-  ```
- 
 
  #### How to know map is loaded?
  You will get a success call back on following delegate method.

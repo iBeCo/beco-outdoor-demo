@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         beCoMap = BEMapView.init(frame: .zero)
-        beCoMap!.loadSite("global-village", name: "Thrissur")//test-environment , global-village , wtc2 , kumbanad
+        beCoMap!.loadSite("global-village-21-22", name: "Thrissur", language: .arabic)//test-environment , global-village , wtc2 , kumbanad
         view = beCoMap
         beCoMap!.mapDelegate = self
     }
@@ -27,9 +27,9 @@ class ViewController: UIViewController {
 extension ViewController: BEMapViewDelegate {
     
     func becoView(_ mapView: BEMapView, didLoadWith site: BESite) {
-        let points: [String] = ["main stage","dry fountain"]
+        let points: [String] = ["India","Pakistan"]
         beCoMap!.drawRouteWithName(points)
-        //beCoMap!.selectPointWithName("main stage")
+        //beCoMap!.selectPointWithName("India")
     }
     
     func becoMapView(_ mapView: BEMapView, didFailedWith error: Error) {

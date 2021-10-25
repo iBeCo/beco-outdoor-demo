@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		A3EAAFD48DD1209439DCB8BC /* Pods_beCoMapOutdoorDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 851BABC966249071E140628F /* Pods_beCoMapOutdoorDemo.framework */; };
+		B323ACCD2726F81400FA8669 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B323ACCF2726F81400FA8669 /* Localizable.strings */; };
 		B356AA782536F49D00E5EBBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B356AA772536F49D00E5EBBD /* AppDelegate.swift */; };
 		B356AA7C2536F49D00E5EBBD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B356AA7B2536F49D00E5EBBD /* ViewController.swift */; };
 		B356AA7F2536F49D00E5EBBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B356AA7D2536F49D00E5EBBD /* Main.storyboard */; };
@@ -18,6 +19,10 @@
 /* Begin PBXFileReference section */
 		851BABC966249071E140628F /* Pods_beCoMapOutdoorDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_beCoMapOutdoorDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90EA44728E197F923DB46400 /* Pods-beCoMapOutdoorDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-beCoMapOutdoorDemo.debug.xcconfig"; path = "Target Support Files/Pods-beCoMapOutdoorDemo/Pods-beCoMapOutdoorDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		B323ACC92726F7D100FA8669 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Main.strings; sourceTree = "<group>"; };
+		B323ACCA2726F7D200FA8669 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		B323ACCE2726F81400FA8669 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B323ACD02726F81600FA8669 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
 		B356AA742536F49D00E5EBBD /* beCoMapOutdoorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = beCoMapOutdoorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B356AA772536F49D00E5EBBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B356AA7B2536F49D00E5EBBD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -67,6 +72,7 @@
 				B356AA802536F4A200E5EBBD /* Assets.xcassets */,
 				B356AA822536F4A200E5EBBD /* LaunchScreen.storyboard */,
 				B356AA852536F4A200E5EBBD /* Info.plist */,
+				B323ACCF2726F81400FA8669 /* Localizable.strings */,
 			);
 			path = beCoMapOutdoorDemo;
 			sourceTree = "<group>";
@@ -99,8 +105,8 @@
 				B356AA702536F49D00E5EBBD /* Sources */,
 				B356AA712536F49D00E5EBBD /* Frameworks */,
 				B356AA722536F49D00E5EBBD /* Resources */,
-				C39BD40876F373104CD4F778 /* [CP] Embed Pods Frameworks */,
-				69B414A7E805D23AE74AB87C /* [CP] Copy Pods Resources */,
+				EE0053841F3B3D845B5114DD /* [CP] Embed Pods Frameworks */,
+				89E2B2A04EC0D51278BF56E8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -133,6 +139,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ar,
 			);
 			mainGroup = B356AA6B2536F49D00E5EBBD;
 			productRefGroup = B356AA752536F49D00E5EBBD /* Products */;
@@ -150,6 +157,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B356AA842536F4A200E5EBBD /* LaunchScreen.storyboard in Resources */,
+				B323ACCD2726F81400FA8669 /* Localizable.strings in Resources */,
 				B356AA812536F4A200E5EBBD /* Assets.xcassets in Resources */,
 				B356AA7F2536F49D00E5EBBD /* Main.storyboard in Resources */,
 			);
@@ -158,7 +166,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		69B414A7E805D23AE74AB87C /* [CP] Copy Pods Resources */ = {
+		89E2B2A04EC0D51278BF56E8 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -175,7 +183,7 @@
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-beCoMapOutdoorDemo/Pods-beCoMapOutdoorDemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C39BD40876F373104CD4F778 /* [CP] Embed Pods Frameworks */ = {
+		EE0053841F3B3D845B5114DD /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -229,10 +237,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		B323ACCF2726F81400FA8669 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B323ACCE2726F81400FA8669 /* en */,
+				B323ACD02726F81600FA8669 /* ar */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		B356AA7D2536F49D00E5EBBD /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				B356AA7E2536F49D00E5EBBD /* Base */,
+				B323ACC92726F7D100FA8669 /* ar */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -241,6 +259,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				B356AA832536F4A200E5EBBD /* Base */,
+				B323ACCA2726F7D200FA8669 /* ar */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -252,6 +271,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -314,6 +334,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";

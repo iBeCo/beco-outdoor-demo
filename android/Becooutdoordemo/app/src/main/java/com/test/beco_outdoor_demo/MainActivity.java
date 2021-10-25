@@ -8,6 +8,8 @@ import android.view.View;
 import android.widget.Button;
 
 import com.beco.outdoor.sdk.map.BEMapActivity;
+import com.beco.outdoor.sdk.utils.Constants;
+import com.beco.outdoor.sdk.utils.LanguageCode;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -21,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent nav = new Intent(MainActivity.this, BEMapActivity.class);
+                nav.putExtra(Constants.LANGUAGE_CODE, LanguageCode.ARABIC.getLanguage());
                 startActivity(nav);
             }
         });

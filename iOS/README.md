@@ -63,7 +63,7 @@ Initialize BeCoServices with usage token and google API key.
 ```
 let beCoServices = BeCoServices.sharedInstance()
 beCoServices.configureWith(usageToken: "46e0b696979896d8b1ef4118f0ace9b096dc210c")
-beCoServices.provideAPIKey("AIzaSyCNLwu4eStBI-VeTFeNV7Gow35dMsr82ak")
+beCoServices.provideAPIKey("GOOGLE_API_KEY")
 
 ```
 

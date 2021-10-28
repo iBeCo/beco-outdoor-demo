@@ -23,7 +23,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent nav = new Intent(MainActivity.this, BEMapActivity.class);
-                nav.putExtra(Constants.LANGUAGE_CODE, LanguageCode.ARABIC.getLanguage());
+               nav.putExtra(Constants.LANGUAGE_CODE, LanguageCode.ARABIC.getLanguage());
                 startActivity(nav);
             }
         });

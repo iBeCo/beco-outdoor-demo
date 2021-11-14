@@ -37,10 +37,10 @@ public class MainActivity extends AppCompatActivity {
             public void onClick(View v) {
                 Intent nav = new Intent(MainActivity.this, BEMapActivity.class);
                 ArrayList<String> waypointInt = new ArrayList<>();
-                waypointInt.add("");
-                waypointInt.add("");
+                waypointInt.add("Bahrain");
+                waypointInt.add("Dragon Lake");
                 nav.putStringArrayListExtra(Constants.WAYPOINT_INTENT,waypointInt);
-                //nav.putExtra(Constants.LANGUAGE_CODE, LanguageCode.ARABIC.getLanguage());
+                nav.putExtra(Constants.LANGUAGE_CODE, LanguageCode.ARABIC.getLanguage());
                 startActivity(nav);
             }
         });

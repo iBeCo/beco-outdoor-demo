@@ -27,8 +27,8 @@ class ViewController: UIViewController {
 extension ViewController: BEMapViewDelegate {
     
     func becoView(_ mapView: BEMapView, didLoadWith site: BESite) {
-        let points: [String] = ["India","Pakistan"]
-        beCoMap!.drawRouteWithName(points)
+        //let points: [String] = ["India","Pakistan"]
+        //beCoMap!.drawRouteWithName(points)
         //beCoMap!.selectPointWithName("India")
     }
     

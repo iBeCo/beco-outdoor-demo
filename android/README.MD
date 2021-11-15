@@ -20,7 +20,7 @@ Then in App build.gradle add
 
 ```
 dependencies{
-	implementation 'com.beco.outdoor:sdk:2.0'
+	implementation 'com.beco.outdoor:sdk:2.2'
 }
 ```
 
@@ -34,7 +34,7 @@ You should create a beco-services.json file your project directory with the SDK 
 {
   "project_info": {
     "api_key": "46e0b696979896d8b1ef4118f0ace9b096dc210c",
-    "environment_id": "global-village"
+    "environment_id": "env-id"
   },
   "search_settings": {
     "base_color": ""

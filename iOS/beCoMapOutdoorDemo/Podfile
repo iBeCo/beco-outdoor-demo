@@ -4,6 +4,6 @@
 target 'beCoMapOutdoorDemo' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-  pod 'beCoMapOutdoor', '= 2.1.0'
+  pod 'beCoMapOutdoor', '= 2.1.1'
 
 end

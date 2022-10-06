@@ -105,8 +105,8 @@
 				B356AA702536F49D00E5EBBD /* Sources */,
 				B356AA712536F49D00E5EBBD /* Frameworks */,
 				B356AA722536F49D00E5EBBD /* Resources */,
-				EE0053841F3B3D845B5114DD /* [CP] Embed Pods Frameworks */,
-				89E2B2A04EC0D51278BF56E8 /* [CP] Copy Pods Resources */,
+				518DA8F930BCC31818A3B481 /* [CP] Embed Pods Frameworks */,
+				96028738D006BB8713D9C7DA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -166,24 +166,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		89E2B2A04EC0D51278BF56E8 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-beCoMapOutdoorDemo/Pods-beCoMapOutdoorDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-beCoMapOutdoorDemo/Pods-beCoMapOutdoorDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-beCoMapOutdoorDemo/Pods-beCoMapOutdoorDemo-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EE0053841F3B3D845B5114DD /* [CP] Embed Pods Frameworks */ = {
+		518DA8F930BCC31818A3B481 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -198,6 +181,23 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-beCoMapOutdoorDemo/Pods-beCoMapOutdoorDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96028738D006BB8713D9C7DA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-beCoMapOutdoorDemo/Pods-beCoMapOutdoorDemo-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-beCoMapOutdoorDemo/Pods-beCoMapOutdoorDemo-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-beCoMapOutdoorDemo/Pods-beCoMapOutdoorDemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		F90EBC6667EA37D07B7077A4 /* [CP] Check Pods Manifest.lock */ = {

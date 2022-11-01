@@ -18,7 +18,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         beCoMap = BEMapView.init(frame: .zero)
-        beCoMap!.loadSite("global-village-21-22", name: "Thrissur", language: .arabic)//test-environment , global-village , wtc2 , kumbanad
+        beCoMap!.loadSite("global-village-22-23", name: "Thrissur", language: .english)//test-environment , global-village , wtc2 , kumbanad
         view = beCoMap
         beCoMap!.mapDelegate = self
     }

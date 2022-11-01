@@ -1,36 +1,36 @@
 PODS:
-  - beCoMapOutdoor (2.1.2):
-    - Google-Maps-iOS-Utils (~> 4.0.0)
-    - GoogleMaps (~> 5.2.0)
-    - SwiftProtobuf (~> 1.16.0)
-  - Google-Maps-iOS-Utils (4.0.0):
-    - Google-Maps-iOS-Utils/Clustering (= 4.0.0)
-    - Google-Maps-iOS-Utils/Geometry (= 4.0.0)
-    - Google-Maps-iOS-Utils/GeometryUtils (= 4.0.0)
-    - Google-Maps-iOS-Utils/Heatmap (= 4.0.0)
-    - Google-Maps-iOS-Utils/QuadTree (= 4.0.0)
+  - beCoMapOutdoor (3.0.0):
+    - Google-Maps-iOS-Utils (~> 4.1.0)
+    - GoogleMaps (~> 7.1.0)
+    - SwiftProtobuf (~> 1.20.1)
+  - Google-Maps-iOS-Utils (4.1.0):
+    - Google-Maps-iOS-Utils/Clustering (= 4.1.0)
+    - Google-Maps-iOS-Utils/Geometry (= 4.1.0)
+    - Google-Maps-iOS-Utils/GeometryUtils (= 4.1.0)
+    - Google-Maps-iOS-Utils/Heatmap (= 4.1.0)
+    - Google-Maps-iOS-Utils/QuadTree (= 4.1.0)
     - GoogleMaps
-  - Google-Maps-iOS-Utils/Clustering (4.0.0):
+  - Google-Maps-iOS-Utils/Clustering (4.1.0):
     - Google-Maps-iOS-Utils/QuadTree
     - GoogleMaps
-  - Google-Maps-iOS-Utils/Geometry (4.0.0):
+  - Google-Maps-iOS-Utils/Geometry (4.1.0):
     - GoogleMaps
-  - Google-Maps-iOS-Utils/GeometryUtils (4.0.0):
+  - Google-Maps-iOS-Utils/GeometryUtils (4.1.0):
     - GoogleMaps
-  - Google-Maps-iOS-Utils/Heatmap (4.0.0):
+  - Google-Maps-iOS-Utils/Heatmap (4.1.0):
     - Google-Maps-iOS-Utils/QuadTree
     - GoogleMaps
-  - Google-Maps-iOS-Utils/QuadTree (4.0.0):
+  - Google-Maps-iOS-Utils/QuadTree (4.1.0):
     - GoogleMaps
-  - GoogleMaps (5.2.0):
-    - GoogleMaps/Maps (= 5.2.0)
-  - GoogleMaps/Base (5.2.0)
-  - GoogleMaps/Maps (5.2.0):
+  - GoogleMaps (7.1.0):
+    - GoogleMaps/Maps (= 7.1.0)
+  - GoogleMaps/Base (7.1.0)
+  - GoogleMaps/Maps (7.1.0):
     - GoogleMaps/Base
-  - SwiftProtobuf (1.16.0)
+  - SwiftProtobuf (1.20.2)
 
 DEPENDENCIES:
-  - beCoMapOutdoor (= 2.1.2)
+  - beCoMapOutdoor (= 3.0.0)
 
 SPEC REPOS:
   trunk:
@@ -40,11 +40,11 @@ SPEC REPOS:
     - SwiftProtobuf
 
 SPEC CHECKSUMS:
-  beCoMapOutdoor: 7b41fe484627e4968bcfe7ab07055dc9146a905c
-  Google-Maps-iOS-Utils: a06cb5c3a0e5b2a505fed82d936ba1b935f8971f
-  GoogleMaps: 025272d5876d3b32604e5c080dc25eaf68764693
-  SwiftProtobuf: 4e16842b83c6fda06b10fac50d73b3f1fce8ab7b
+  beCoMapOutdoor: 49fea15d726abd12d093f5a271abc490b48ca5c1
+  Google-Maps-iOS-Utils: 3343332b18dfd5be8f1f44edd7d481ace3da4d9a
+  GoogleMaps: bc56ffb0324e345a2d91bac1a64a920f9c8f1b20
+  SwiftProtobuf: 9f458aaa7844a2fc0b910053e66578bc4e2da9c1
 
-PODFILE CHECKSUM: 7e04b4e97d46b43f9d515e47556cbe2a15622cba
+PODFILE CHECKSUM: c65117d28b75f63ce07056a83bd0e82d90ba7a36
 
-COCOAPODS: 1.11.2
+COCOAPODS: 1.11.3

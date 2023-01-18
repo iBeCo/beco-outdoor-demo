@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent nav = new Intent(MainActivity.this, BEMapActivity.class);
-               nav.putExtra(Constants.LANGUAGE_CODE, LanguageCode.ARABIC.getLanguage());
+               nav.putExtra(Constants.LANGUAGE_CODE, LanguageCode.ENGLISH.getLanguage());
                 startActivity(nav);
             }
         });
@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
                 waypointInt.add("Bahrain");
                 waypointInt.add("Dragon Lake");
                 nav.putStringArrayListExtra(Constants.WAYPOINT_INTENT,waypointInt);
-                nav.putExtra(Constants.LANGUAGE_CODE, LanguageCode.ARABIC.getLanguage());
+                nav.putExtra(Constants.LANGUAGE_CODE, LanguageCode.ENGLISH.getLanguage());
                 startActivity(nav);
             }
         });

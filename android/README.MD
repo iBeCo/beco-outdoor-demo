@@ -118,6 +118,15 @@ nav.putExtra(Constants.POINT_INTENT,"Europe");
 startActivity(nav);
 
 ```
+For passing the parking location and parking point name
+
+```
+  Intent nav = new Intent(this, BEMapActivity.class);
+  nav.putExtra(Constants.LATITUDE_CODE,lattitude);
+  nav.putExtra(Constants.LONGITUDE_CODE,longitude);
+  nav.putExtra(Constants.PARK_NAME_CODE,"Parking point name");
+  
+```
 
 For Arabic implementation you should pass the below param with the intent
 

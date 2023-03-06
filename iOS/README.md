@@ -8,8 +8,7 @@ The following information will help you to integrate the beCoMap SDK with your a
 beCo map outdoor SDK for iOS will help you setup a map based navigation system for your users on their apple devices. Using the SDK you can provide an interactive and engaging experience to your users with the least effort.
 
 ### Requirements
- * iOS 11.0 and above
- * Location Services permissions set to **Always**
+ * iOS 13.0 and above
  
 
 ### Get the latest version of Xcode 

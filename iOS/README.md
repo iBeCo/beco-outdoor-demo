@@ -110,3 +110,4 @@ view = beCoMap
  ### Test your app
 
 The beCoMap SDK should now be fully integrated in your app. Run the app and use the map. You’re done!
+

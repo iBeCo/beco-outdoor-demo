@@ -63,7 +63,7 @@ Initialize BeCoServices with usage token and google API key.
 ```
 let beCoServices = BeCoServices.sharedInstance()
 beCoServices.configureWith(usageToken: "46e0b696979896d8b1ef4118f0ace9b096dc210c")
-beCoServices.provideAPIKey("GOOGLE_API_KEY")
+beCoServices.provideAPIKey("AIzaSyCNLwu4eStBI-VeTFeNV7Gow35dMsr82ak")
 
 ```
 
@@ -72,24 +72,33 @@ beCoServices.provideAPIKey("GOOGLE_API_KEY")
 ```
 let beCoMap = BEMapView.init(frame: .zero)
 beCoMap.mapDelegate = self
-beCoMap.loadSite("global-village-21-22", name: "Thrissur", language: .arabic)
+beCoMap.loadSite("wtc2", name: "Global Village Dubai")
 view = beCoMap
 
 ```
 
  ### Select point from app
- After loading the map, you can programatically select a point using the point id.
+ After loading the map, you can programatically select a point using the point name.
  ```
- beCoMap!.selectPoint(19358)
+ beCoMap!.selectPointWithName("Point Name")
  ```
 
 
  ### Draw route from app
- After loading the map you can supply list of node id's to the sdk and, can programatically draw route.
- You must supply 2-5 valid point id's as a list.
+ After loading the map you can supply list of node names's to the sdk and, can programatically draw route.
+ You must supply 2-5 valid point names's as a list.
  ```
- let points: [Int32] = [5215,5505]
- beCoMap.drawRouteWith(points)
+ let points: [String] = ["IBM","Waiting Area","Lulu Cyber Tower 1"]
+ beCoMap.drawRouteWithName(points, startForUserlocation: true)
+ ```
+
+
+ ### Draw route from app by suppliying a location
+ After loading the map you can supply list of node names's to the sdk and, can programatically draw route.
+ You must supply 2-5 valid point names's as a list.
+ ```
+ let parkingloc = CLLocationCoordinate2D.init(latitude: 25.07157095919638, longitude: 55.31000836488759)
+ beCoMap.drawRouteToLocation(parkingloc, with: "Parking")
  ```
 
  #### How to know map is loaded?

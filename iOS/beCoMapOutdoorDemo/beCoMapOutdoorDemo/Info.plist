@@ -39,5 +39,9 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    <key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+    <string>Application requirs location aceess permision to track your location.</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>Application requirs location aceess permision to track your location.</string>
 </dict>
 </plist>

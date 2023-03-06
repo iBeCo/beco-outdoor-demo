@@ -14,6 +14,10 @@
 		B356AA7F2536F49D00E5EBBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B356AA7D2536F49D00E5EBBD /* Main.storyboard */; };
 		B356AA812536F4A200E5EBBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B356AA802536F4A200E5EBBD /* Assets.xcassets */; };
 		B356AA842536F4A200E5EBBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B356AA822536F4A200E5EBBD /* LaunchScreen.storyboard */; };
+		B3C9563A29B5AADE002E3C9B /* gv india to parking fast.gpx in Resources */ = {isa = PBXBuildFile; fileRef = B3C9563629B5AADD002E3C9B /* gv india to parking fast.gpx */; };
+		B3C9563B29B5AADE002E3C9B /* gv india to parking.gpx in Resources */ = {isa = PBXBuildFile; fileRef = B3C9563729B5AADD002E3C9B /* gv india to parking.gpx */; };
+		B3C9563C29B5AADE002E3C9B /* gv stay india.gpx in Resources */ = {isa = PBXBuildFile; fileRef = B3C9563829B5AADE002E3C9B /* gv stay india.gpx */; };
+		B3C9563D29B5AADE002E3C9B /* gv lakeside walk.gpx in Resources */ = {isa = PBXBuildFile; fileRef = B3C9563929B5AADE002E3C9B /* gv lakeside walk.gpx */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +34,10 @@
 		B356AA802536F4A200E5EBBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B356AA832536F4A200E5EBBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B356AA852536F4A200E5EBBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3C9563629B5AADD002E3C9B /* gv india to parking fast.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "gv india to parking fast.gpx"; sourceTree = "<group>"; };
+		B3C9563729B5AADD002E3C9B /* gv india to parking.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "gv india to parking.gpx"; sourceTree = "<group>"; };
+		B3C9563829B5AADE002E3C9B /* gv stay india.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "gv stay india.gpx"; sourceTree = "<group>"; };
+		B3C9563929B5AADE002E3C9B /* gv lakeside walk.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "gv lakeside walk.gpx"; sourceTree = "<group>"; };
 		D5F933B9F1F4C32F6F6EE06B /* Pods-beCoMapOutdoorDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-beCoMapOutdoorDemo.release.xcconfig"; path = "Target Support Files/Pods-beCoMapOutdoorDemo/Pods-beCoMapOutdoorDemo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -48,6 +56,10 @@
 		B356AA6B2536F49D00E5EBBD = {
 			isa = PBXGroup;
 			children = (
+				B3C9563629B5AADD002E3C9B /* gv india to parking fast.gpx */,
+				B3C9563729B5AADD002E3C9B /* gv india to parking.gpx */,
+				B3C9563929B5AADE002E3C9B /* gv lakeside walk.gpx */,
+				B3C9563829B5AADE002E3C9B /* gv stay india.gpx */,
 				B356AA762536F49D00E5EBBD /* beCoMapOutdoorDemo */,
 				B356AA752536F49D00E5EBBD /* Products */,
 				D7EC9C3C8FC43403A837793D /* Pods */,
@@ -157,9 +169,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				B356AA842536F4A200E5EBBD /* LaunchScreen.storyboard in Resources */,
+				B3C9563B29B5AADE002E3C9B /* gv india to parking.gpx in Resources */,
 				B323ACCD2726F81400FA8669 /* Localizable.strings in Resources */,
+				B3C9563A29B5AADE002E3C9B /* gv india to parking fast.gpx in Resources */,
 				B356AA812536F4A200E5EBBD /* Assets.xcassets in Resources */,
+				B3C9563C29B5AADE002E3C9B /* gv stay india.gpx in Resources */,
 				B356AA7F2536F49D00E5EBBD /* Main.storyboard in Resources */,
+				B3C9563D29B5AADE002E3C9B /* gv lakeside walk.gpx in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,17 +409,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = KC5H4C562K;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VUCQ557J4A;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/beCoMapOutdoorDemo",
 				);
 				INFOPLIST_FILE = beCoMapOutdoorDemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "beCoMapOutdoor Demo";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 4.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.beCo.beCoMapOutdoorDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
@@ -417,17 +437,21 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = KC5H4C562K;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = VUCQ557J4A;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/beCoMapOutdoorDemo",
 				);
 				INFOPLIST_FILE = beCoMapOutdoorDemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "beCoMapOutdoor Demo";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.developer-tools";
 				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
+				MARKETING_VERSION = 4.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.beCo.beCoMapOutdoorDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;

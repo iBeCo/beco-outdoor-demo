@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gpx xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.topografix.com/GPX/1/1" xsi:schemaLocation="http://www.topografix.com/GPX/1/1 http://www.topografix.com/GPX/1/1/gpx.xsd" version="1.1" creator="Open GPX Tracker for iOS">
+	<wpt lat="25.06840651758021" lon="55.30926584745191">
+		<time>2023-03-01T06:45:03Z</time>
+		<name>12:15:03 PM</name>
+		<desc>01-Mar-2023 at 12:15:03 PM</desc>
+	</wpt>
+	<wpt lat="25.06847169267545" lon="55.309175579280875">
+		<time>2023-03-01T06:45:08Z</time>
+		<name>12:15:08 PM</name>
+		<desc>01-Mar-2023 at 12:15:08 PM</desc>
+	</wpt>
+	<wpt lat="25.06841244259029" lon="55.30918473692139">
+		<time>2023-03-01T06:45:12Z</time>
+		<name>12:15:12 PM</name>
+		<desc>01-Mar-2023 at 12:15:12 PM</desc>
+	</wpt>
+	<trk>
+		<trkseg>
+			<trkpt lat="10.007706581819978" lon="76.36411560652941">
+				<ele>7.697352886199951</ele>
+				<time>2023-03-01T06:45:05Z</time>
+			</trkpt>
+			<trkpt lat="10.007763911079417" lon="76.36403115721812">
+				<ele>7.60956335067749</ele>
+				<time>2023-03-01T06:45:05Z</time>
+			</trkpt>
+			<trkpt lat="10.007708919887655" lon="76.36411183185236">
+				<ele>7.527146339416504</ele>
+				<time>2023-03-01T06:45:11Z</time>
+			</trkpt>
+			<trkpt lat="10.007768836254384" lon="76.36404865403154">
+				<ele>7.486466407775879</ele>
+				<time>2023-03-01T06:45:11Z</time>
+			</trkpt>
+			<trkpt lat="10.007705916675507" lon="76.36412145540635">
+				<ele>7.443208694458008</ele>
+				<time>2023-03-01T06:45:20Z</time>
+			</trkpt>
+			<trkpt lat="10.007781583095428" lon="76.36407310367787">
+				<ele>7.468961715698242</ele>
+				<time>2023-03-01T06:45:20Z</time>
+			</trkpt>
+			<trkpt lat="10.007713844415813" lon="76.36411820940735">
+				<ele>7.490187168121338</ele>
+				<time>2023-03-01T06:45:26Z</time>
+			</trkpt>
+			<trkpt lat="10.00776828294401" lon="76.36406968878646">
+				<ele>7.472764492034912</ele>
+				<time>2023-03-01T06:45:27Z</time>
+			</trkpt>
+		</trkseg>
+	</trk>
+</gpx>

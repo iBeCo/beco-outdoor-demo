@@ -20,7 +20,7 @@ Then in App build.gradle add
 
 ```
 dependencies{
-	implementation 'com.beco.outdoor:sdk:3.0'
+	implementation 'com.beco.outdoor:sdk:3.1'
 }
 ```
 
@@ -122,8 +122,8 @@ For passing the parking location and parking point name
 
 ```
   Intent nav = new Intent(this, BEMapActivity.class);
-  nav.putExtra(Constants.LATITUDE_CODE,lattitude);
-  nav.putExtra(Constants.LONGITUDE_CODE,longitude);
+  nav.putExtra(Constants.LATITUDE_CODE,lattitude);//lattitude is double
+  nav.putExtra(Constants.LONGITUDE_CODE,longitude);//longitude is double
   nav.putExtra(Constants.PARK_NAME_CODE,"Parking point name");
   
 ```

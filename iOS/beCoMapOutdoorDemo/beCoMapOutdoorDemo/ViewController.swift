@@ -31,7 +31,8 @@ extension ViewController: BEMapViewDelegate {
         DispatchQueue.main.asyncAfter(deadline: .now() + 5.0) {
             DispatchQueue.main.async { [weak self] in
                 if let strongSelf = self {
-                    let parkingloc = CLLocationCoordinate2D.init(latitude: 25.07157095919638, longitude: 55.31000836488759)
+                    //let parkingloc = CLLocationCoordinate2D.init(latitude: 25.07157095919638, longitude: 55.31000836488759)
+                    let parkingloc = CLLocationCoordinate2D.init(latitude: 25.06931, longitude: 55.30819)
                     strongSelf.beCoMap!.drawRouteToLocation(parkingloc, with: "Parking")
                     print("Simulating parking")
                     

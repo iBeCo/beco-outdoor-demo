@@ -28,20 +28,14 @@ class ViewController: UIViewController {
 extension ViewController: BEMapViewDelegate {
     
     func becoView(_ mapView: BEMapView, didLoadWith site: BESite) {
-        DispatchQueue.main.asyncAfter(deadline: .now() + 5.0) {
-            DispatchQueue.main.async { [weak self] in
-                if let strongSelf = self {
-                    //let parkingloc = CLLocationCoordinate2D.init(latitude: 25.07157095919638, longitude: 55.31000836488759)
-                    let parkingloc = CLLocationCoordinate2D.init(latitude: 25.06931, longitude: 55.30819)
-                    strongSelf.beCoMap!.drawRouteToLocation(parkingloc, with: "Parking")
-                    print("Simulating parking")
-                    
-//                    let points: [String] = ["IBM","Waiting Area","Lulu Cyber Tower 1"]
-//                    strongSelf.beCoMap!.drawRouteWithName(points, startForUserlocation: true)
-//                    print("Simulating Poiny to point")
-                }
-            }
-        }
+        //let parkingloc = CLLocationCoordinate2D.init(latitude: 25.07157095919638, longitude: 55.31000836488759)
+        let parkingloc = CLLocationCoordinate2D.init(latitude: 25.06931, longitude: 55.30819)
+        beCoMap!.drawRouteToLocation(parkingloc, with: "Parking")
+        print("Simulating parking")
+        
+//        let points: [String] = ["India","Egypt","Turkey"]
+//        beCoMap!.drawRouteWithName(points, startForUserlocation: true)
+//        print("Simulating Poiny to point")
     }
     
     func becoMapView(_ mapView: BEMapView, didFailedWith error: Error) {

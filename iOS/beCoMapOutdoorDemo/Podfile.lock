@@ -1,5 +1,5 @@
 PODS:
-  - beCoMapOutdoor (4.0.0):
+  - beCoMapOutdoor (4.0.1):
     - Google-Maps-iOS-Utils (~> 4.1.0)
     - GoogleMaps (~> 7.4.0)
     - SwiftProtobuf (~> 1.21.0)
@@ -30,7 +30,7 @@ PODS:
   - SwiftProtobuf (1.21.0)
 
 DEPENDENCIES:
-  - beCoMapOutdoor (= 4.0.0)
+  - beCoMapOutdoor (= 4.0.1)
 
 SPEC REPOS:
   trunk:
@@ -40,11 +40,11 @@ SPEC REPOS:
     - SwiftProtobuf
 
 SPEC CHECKSUMS:
-  beCoMapOutdoor: 6a239fa9c634752a59ae165ba0b134e5fb4fdd50
+  beCoMapOutdoor: 13fc01a45f8c53f42da3360606e2cf196916a292
   Google-Maps-iOS-Utils: 3343332b18dfd5be8f1f44edd7d481ace3da4d9a
   GoogleMaps: 032f676450ba0779bd8ce16840690915f84e57ac
   SwiftProtobuf: afced68785854575756db965e9da52bbf3dc45e7
 
-PODFILE CHECKSUM: 63a89ed741699df2e940e913703e87b049d24842
+PODFILE CHECKSUM: 291c832d040ca8cb776d2ee037ab30f5acc3cfe0
 
 COCOAPODS: 1.11.3

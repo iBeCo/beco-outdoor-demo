@@ -64,6 +64,11 @@ class MapViewController: UIViewController {
         performMapOperation()
     }
     
+    override func viewDidDisappear(_ animated: Bool) {
+        super.viewDidDisappear(animated)
+        mapAction = .NoAction
+    }
+    
     private func performMapOperation() {
         switch mapAction {
         case .DrawRouteToLocation:

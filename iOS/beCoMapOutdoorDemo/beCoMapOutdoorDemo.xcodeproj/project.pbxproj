@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		A3EAAFD48DD1209439DCB8BC /* Pods_beCoMapOutdoorDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 851BABC966249071E140628F /* Pods_beCoMapOutdoorDemo.framework */; };
 		B323ACCD2726F81400FA8669 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = B323ACCF2726F81400FA8669 /* Localizable.strings */; };
+		B345173529C4257400BF0A87 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B345173429C4257400BF0A87 /* TabBarController.swift */; };
+		B345173729C4258F00BF0A87 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B345173629C4258F00BF0A87 /* HomeViewController.swift */; };
 		B356AA782536F49D00E5EBBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B356AA772536F49D00E5EBBD /* AppDelegate.swift */; };
-		B356AA7C2536F49D00E5EBBD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B356AA7B2536F49D00E5EBBD /* ViewController.swift */; };
+		B356AA7C2536F49D00E5EBBD /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B356AA7B2536F49D00E5EBBD /* MapViewController.swift */; };
 		B356AA7F2536F49D00E5EBBD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B356AA7D2536F49D00E5EBBD /* Main.storyboard */; };
 		B356AA812536F4A200E5EBBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B356AA802536F4A200E5EBBD /* Assets.xcassets */; };
 		B356AA842536F4A200E5EBBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B356AA822536F4A200E5EBBD /* LaunchScreen.storyboard */; };
+		B39C7D9F29C45199009CB9CD /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B39C7D9E29C45199009CB9CD /* SettingsViewController.swift */; };
 		B3C9563A29B5AADE002E3C9B /* gv india to parking fast.gpx in Resources */ = {isa = PBXBuildFile; fileRef = B3C9563629B5AADD002E3C9B /* gv india to parking fast.gpx */; };
 		B3C9563B29B5AADE002E3C9B /* gv india to parking.gpx in Resources */ = {isa = PBXBuildFile; fileRef = B3C9563729B5AADD002E3C9B /* gv india to parking.gpx */; };
 		B3C9563C29B5AADE002E3C9B /* gv stay india.gpx in Resources */ = {isa = PBXBuildFile; fileRef = B3C9563829B5AADE002E3C9B /* gv stay india.gpx */; };
@@ -27,13 +30,16 @@
 		B323ACCA2726F7D200FA8669 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		B323ACCE2726F81400FA8669 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		B323ACD02726F81600FA8669 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/Localizable.strings; sourceTree = "<group>"; };
+		B345173429C4257400BF0A87 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		B345173629C4258F00BF0A87 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		B356AA742536F49D00E5EBBD /* beCoMapOutdoorDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = beCoMapOutdoorDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B356AA772536F49D00E5EBBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B356AA7B2536F49D00E5EBBD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B356AA7B2536F49D00E5EBBD /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 		B356AA7E2536F49D00E5EBBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B356AA802536F4A200E5EBBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B356AA832536F4A200E5EBBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B356AA852536F4A200E5EBBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B39C7D9E29C45199009CB9CD /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		B3C9563629B5AADD002E3C9B /* gv india to parking fast.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "gv india to parking fast.gpx"; sourceTree = "<group>"; };
 		B3C9563729B5AADD002E3C9B /* gv india to parking.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "gv india to parking.gpx"; sourceTree = "<group>"; };
 		B3C9563829B5AADE002E3C9B /* gv stay india.gpx */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = "gv stay india.gpx"; sourceTree = "<group>"; };
@@ -79,7 +85,10 @@
 			isa = PBXGroup;
 			children = (
 				B356AA772536F49D00E5EBBD /* AppDelegate.swift */,
-				B356AA7B2536F49D00E5EBBD /* ViewController.swift */,
+				B345173429C4257400BF0A87 /* TabBarController.swift */,
+				B345173629C4258F00BF0A87 /* HomeViewController.swift */,
+				B356AA7B2536F49D00E5EBBD /* MapViewController.swift */,
+				B39C7D9E29C45199009CB9CD /* SettingsViewController.swift */,
 				B356AA7D2536F49D00E5EBBD /* Main.storyboard */,
 				B356AA802536F4A200E5EBBD /* Assets.xcassets */,
 				B356AA822536F4A200E5EBBD /* LaunchScreen.storyboard */,
@@ -245,8 +254,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B356AA7C2536F49D00E5EBBD /* ViewController.swift in Sources */,
+				B345173529C4257400BF0A87 /* TabBarController.swift in Sources */,
+				B356AA7C2536F49D00E5EBBD /* MapViewController.swift in Sources */,
 				B356AA782536F49D00E5EBBD /* AppDelegate.swift in Sources */,
+				B39C7D9F29C45199009CB9CD /* SettingsViewController.swift in Sources */,
+				B345173729C4258F00BF0A87 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

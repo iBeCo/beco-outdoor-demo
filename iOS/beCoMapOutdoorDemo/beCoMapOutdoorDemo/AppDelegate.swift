@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         let beCoServices = BeCoServices.sharedInstance()
         beCoServices.configureWith(usageToken: "ce366d96bc01ef1a6e9ba2da04e5ec3772826afc")
-        beCoServices.provideAPIKey("AIzaSyCNLwu4eStBI-VeTFeNV7Gow35dMsr82ak")
+        beCoServices.provideAPIKey("XXXXXX-Google_API_KEY_XXXXXXXXXX")
         return true
     }
 

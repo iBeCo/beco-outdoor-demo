@@ -54,7 +54,9 @@ class MapViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        beCoMap.loadSite("global-village-22-23", name: "Dubai", language: .english)
+        //"global-village-23-24"
+        //"global-village-22-23"
+        beCoMap.loadSite("global-village-23-24", name: "Dubai", language: .english)
         beCoMap.mapDelegate = self
         view = beCoMap
     }

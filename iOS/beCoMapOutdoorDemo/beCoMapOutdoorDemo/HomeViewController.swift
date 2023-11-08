@@ -30,7 +30,7 @@ class HomeViewController: UIViewController {
             controller.locationPoint = parkingloc
             controller.locationName = "Parking"
         case 1:
-            let points: [String] = ["India","Egypt","Turkey"]
+            let points: [String] = ["Iran","Thailand"]
             controller.stopPoints = points
         default:
             break

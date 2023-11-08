@@ -79,7 +79,7 @@ class MapViewController: UIViewController {
                 print("Simulating parking")
             }
         case .DrawRouteWithPoints:
-            let points: [String] = ["India","Egypt","Turkey"]
+            let points: [String] = ["Iran","Thailand"]
             beCoMap.drawRouteWithName(points, startForUserlocation: true)
             print("Simulating Poiny to point")
         case .SelectPoint:

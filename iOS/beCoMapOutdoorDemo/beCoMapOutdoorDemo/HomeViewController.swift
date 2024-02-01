@@ -26,7 +26,7 @@ class HomeViewController: UIViewController {
         
         switch sender.tag {
         case 0:
-            let parkingloc = CLLocationCoordinate2D.init(latitude: 25.06931, longitude: 55.30819)
+            let parkingloc = CLLocationCoordinate2D.init(latitude: 25.073672, longitude: 55.306493)
             controller.locationPoint = parkingloc
             controller.locationName = "Parking"
         case 1:

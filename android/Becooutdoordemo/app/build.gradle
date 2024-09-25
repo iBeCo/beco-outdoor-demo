@@ -4,13 +4,13 @@ plugins {
 apply plugin: 'com.google.gms.google-services'
 
 android {
-    compileSdkVersion 29
+    compileSdkVersion 34
     buildToolsVersion "29.0.3"
 
     defaultConfig {
         applicationId "com.test.beco_outdoor_demo"
-        minSdkVersion 23
-        targetSdkVersion 29
+        minSdkVersion 24
+        targetSdkVersion 34
         versionCode 1
         versionName "1.0"
 
@@ -31,7 +31,7 @@ android {
 
 dependencies {
 
-    implementation 'com.beco.outdoor:sdk:3.1'
+    implementation 'com.beco.outdoor:sdk:3.2'
     implementation 'androidx.appcompat:appcompat:1.2.0'
     implementation 'com.google.android.material:material:1.2.1'
     implementation 'androidx.constraintlayout:constraintlayout:2.0.2'
